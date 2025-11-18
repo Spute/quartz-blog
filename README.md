@@ -11,4 +11,9 @@ Quartz v4 进行了彻底重写，专注于终端用户的可扩展性和易用�
 - 本地构建并预览
 `npx quartz build --serve`
 - 推送到github自动部署
-`npx quartz sync --no-pull`
+`npx quartz sync`
+
+| 命令                              | 会不会执行 `git pull`                      | 适用场景                 | 风险                        |
+| ------------------------------- | ------------------------------------- | -------------------- | ------------------------- |
+| **`npx quartz sync`**           | ✔ 会执行 `git pull --rebase --autostash` | 每次正常更新内容推送时          | 可能遇到远程冲突                  |
+| **`npx quartz sync --no-pull`** | ❌ 不会执行 git pull                       | **首次部署**用、确定不需要拉取远程时 | 如果远程有内容，会被覆盖（push 时失败或冲突） |
