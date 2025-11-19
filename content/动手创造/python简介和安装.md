@@ -7,21 +7,13 @@ title: python 简介和安装
 Python（英式发音：/ˈpaɪθən/；美式发音：/ˈpaɪθɑːn/）是由荷兰人吉多·范罗苏姆（Guido von Rossum）发明的一种编程语言，是目前世界上最受欢迎和拥有最多用户的编程语言。<strong>Python 强调代码的可读性和语法的简洁性</strong>，相较于 C、C++、Java 这些同样影响深远的编程语言，Python 让使用者能够用更少的代码表达自己的意图。
 
 下面是几个权威的编程语言排行榜给出的 Python 语言的排名：
-
 - TIOBE Index 提供
-
 ![[Epx2b4EW2oJkMoxT2alcKUEHn9x.png]]
-
 - IEEE Spectrum 提供。
-
 ![[Utw3bm2hgo0w9GxM6WlcLiK4npe.png]]
-
 可以看出 python 语言在各大榜单都稳居第一。且 2025 相对于去年占比有明显上升趋势。
-
 ### Python 编年史
-
 下面是 Python 语言发展过程中的一些重要时间点：
-
 1. 1989 年 12 月：吉多·范罗苏姆决心开发一个新的脚本语言及其解释器来打发无聊的圣诞节，新语言将作为 ABC 语言的继承者，主要用来替代 Unix shell 和 C 语言实现系统管理。由于吉多本人是 BBC 电视剧《Monty Python's Flying Circus》的忠实粉丝，所以他选择了 Python 这个词作为新语言的名字。
 2. 1991 年 02 月：吉多·范罗苏姆在 alt.sources 新闻组上发布了 Python 解释器的最初代码，标记为版本 0.9.0。
 3. 1994 年 01 月：Python 1.0 发布，梦开始的地方。
@@ -33,7 +25,6 @@ Python（英式发音：/ˈpaɪθən/；美式发音：/ˈpaɪθɑːn/）是由�
 9. 目前：Python 在大模型（GPT-3、GPT-4、BERT 等）、计算机视觉（图像识别、目标检测、图像生成等）、智能推荐（YouTube、Netflix、字节跳动等）、自动驾驶（Waymo、Apollo 等）、语音识别、数据科学、量化交易、自动化测试、自动化运维等领域都得到了广泛的应用，Python 语言的生态圈也是相当繁荣。
 
 > <strong>说明</strong>：大多数软件的版本号一般分为三段，形如 A.B.C，其中 A 表示大版本号，当软件整体重写升级或出现不向后兼容的改变时，才会增加 A；B 表示功能更新，出现新功能时增加 B；C 表示小的改动（例如：修复了某个 Bug），只要有修改就增加 C。
-
 ### Python 优缺点
 
 Python 语言的优点很多，简单为大家列出几点。
@@ -62,11 +53,8 @@ Python 最主要的缺点是执行效率低（解释型语言的通病），如�
 ![[RQEybGG1voJ8SVxR6VGcjFADngA.png]]
 
 ### Windows 环境
-
 #### 自动安装
-
 首先，<strong>一定要记得勾选“Add python.exe to PATH”选项</strong>，它会帮助我们将 Python 解释器添加到 Windows 系统的 PATH 环境变量中（不理解没关系，勾上就对了）；其次，“Use admin privileges when installing py.exe”是为了在安装过程中获得管理员权限，建议勾选。点击“install Now”即可完成安装
-
 ![[RZhSb6HqOoY2k1x0ikBczgXrncg.png]]
 
 #### 自定义安装（可选）
