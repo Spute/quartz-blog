@@ -45,16 +45,23 @@ obsidian 的插件绝对是一个强大的功能，让你可以自由定义自�
 
 ![[FbNabNmUhopgZIxn5RFcFq3MnHd.png]]
 
-# 美观好用：Obsidian+Quartz+Cloudflare Pages 快速博客发布指南
+# 美观好用：Quartz+Cloudflare Pages快速博客发布
 
 ## 前言
 
-学各种东西的过程中零零散散整理了不少文字，也有一些自己的想法，一直放在本地过段时间就再也想不起来在哪儿了，不如拿出来放在个人站上，还可以与他人讨论。
+找到一个方案 **Quartz 4** —— 一个专为 Obsidian 用户设计的静态 Markdown 框架。
+- **无需后端**，可直接部署到 GitHub Pages 或 Vercel。
+- **原生支持 Obsidian 的双链语法与目录结构**。
+- 只需把笔记放进指定文件夹并提交到仓库，即可**自动构建一个美观、可导航、可全文搜索的个人知识库网站**。
+- 拥有成熟的开源社区、结构清晰、样式现代。
+- **内置 SEO 与 PWA 支持**，几乎开箱即用。
+实验下来发现页面简洁美观，手机端适配也还行。这点相对于飞书云文档好多了，我决定弃用飞书云文档，以后直接在obstain里写内容，然后直接发布到网站。
+效果如下：
+![[Pasted image 20251118183828.png]]
+网站地址：[https://blog.520233.best/](https://blog.520233.best/)
 
-最开始考虑了 Wordpress，但感觉许多配置都无法符合自己的预期，且难以更深度地自定义，于是转向寻找其他方案。考虑到本地的文档资料都是在 Obsidian 中使用 Markdown 整理的，因此最好寻找一个可以直接托管 Markdown 的工具框架，减少额外步骤。
-
-兜兜转转比较了不少工具之后，最后落在了 Quartz 上。
-
+部署方式可以参考以下文章，写点非常详细：
+- [美观好用：Obsidian+Quartz+Cloudflare Pages 快速博客发布指南 - 毛可多来](https://www.xulihang.work/Quartz/%E7%BE%8E%E8%A7%82%E5%A5%BD%E7%94%A8%EF%BC%9AObsidian+Quartz+Cloudflare-Pages%E5%BF%AB%E9%80%9F%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97)
 ## 功能点详细比对：
 
 精力有限，就只对比这 4 种方案了。下面列上我目前体验对比过的全部第三方开源发布方案，供各位参考，也可以持续观察作者后续的开发进展，再择优选择。
