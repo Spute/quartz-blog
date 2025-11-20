@@ -37,30 +37,96 @@ category: 工具分享
 - **在线预览**：图片、视频、音频、PDF、代码文件都能直接看，文本还能在线编辑。
 - **支持多用户**：可以给家人设不同账号，不互相看到对方文件。
 - **安全分享文件**：生成下载链接，可设置密码和有效期。
-## 使用步骤
- 我这边以windows 系统为例，3步完成部署
 
-1. **下载 Filebrowser**
-    - 进入 GitHub 发布页`https://github.com/filebrowser/filebrowser/releases`
-    - 找到 **Windows 版本（AMD64）** 并下载
-    - 如果嫌 GitHub 下载慢，也可以直接用我准备好的蓝奏云链接：  
-        `https://wwfx.lanzouu.com/iqcZC3bo8fif`
-2. **运行 Filebrowser**
-    - 将下载的压缩包解压，直接双击运行里面的 `filebrowser.exe`。
-    - **注意文件共享范围**
-        - Filebrowser 会默认共享当前目录的所有内容。
-        - 如果你只想共享某个特定文件夹，只需要把 `filebrowser.exe` 移动到那个目录再运行。
-    - **数据库文件说明**
-        - 首次运行后会自动生成 `filebrowser.db`（用于存储账号密码等信息）。
-        - 若你忘记密码，删除 `filebrowser.db` 后再次运行即可重置为一个新的数据库。
+
+## 使用步骤（Windows 示例）
+
+只需要 **3 步** 就能在家里部署一个 Filebrowser 私人网盘。
+
+---
+
+### **1. 下载 Filebrowser**
+
+- 打开 GitHub 发布页：`https://github.com/filebrowser/filebrowser/releases`
+    
+- 找到 **Windows 版（AMD64）** 并下载
+    
+- 如果 GitHub 太慢，也可以使用我准备的蓝奏云：  
+    `https://wwfx.lanzouu.com/iqcZC3bo8fif`
+    
+
+---
+
+### **2. 运行 Filebrowser**
+
+- 解压下载的压缩包，双击运行 `filebrowser.exe` 即可启动。
+    
+- **默认共享范围**：Filebrowser 会共享当前目录的所有文件。  
+    👉 想共享哪个文件夹，就把 `filebrowser.exe` 放到那个文件夹里再运行。
+    
+- **数据库文件**：首次运行会自动生成 `filebrowser.db`（保存账号密码等信息）。  
+    👉 如果忘记密码，删除它即可重置（会生成新的空数据库）。
+
 ![[Pasted image 20251120165303.png]]
-3. 会出现命令窗口，找到初始账号和密码。同一家庭网络下，用手机或者 ipad 都可以通过电脑的 IP 访问这个网盘服务。
 
+### **3. 查看初始账号密码**
+
+启动后会弹出一个命令窗口，里面会显示默认的账号和密码。  
+同一局域网下（手机 / iPad / 电脑）都可以通过 **电脑的 IP 地址** 访问你的网盘。
+
+启动后可以在浏览器里修改语言、更新初始密码。
 ![[U1ATblVJDoJvTTxA9hxcKLsGnFg.png]]
-修改语言，更新初识密码
 ![[Pasted image 20251120165004.png]]
+---
 
-## 更多参考文档
-<strong>官网文档：</strong>[https://www.filebrowser.cn/](https://www.filebrowser.cn/)
-<strong>GitHub 地址：</strong>[filebrowser/filebrowser: Web File Browser (](https://github.com/filebrowser/filebrowser)[github.com](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F)[)](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Ffilebrowser%2Ffilebrowser)
-<strong>Docker Hub 地址：</strong>[filebrowser/filebrowser - Docker Image | Docker Hub](https://hub.docker.com/r/filebrowser/filebrowser)
+## 局域网共享访问
+
+### **使用共享模式启动 Filebrowser**
+
+为了让手机、iPad 等设备访问，你需要让服务监听局域网：
+
+1. 在 `filebrowser.exe` 所在目录打开 PowerShell（资源管理器地址栏输入 `powershell`）。
+    
+2. 输入以下指令启动：
+    
+
+```
+./filebrowser.exe -a 0.0.0.0 -p 8080
+```
+
+这样 Filebrowser 就能被局域网内其他设备访问。
+![[PixPin_2025-11-20_18-46-05.gif]]
+
+---
+
+### 获取电脑 IP 地址（最简单的小白方法）
+
+1. 右下角点击 **网络图标**（Wi-Fi 或 网线）
+    
+2. 选择 **“打开网络和 Internet 设置”**
+    
+3. 找到你正在连接的网络：
+    
+    - Wi-Fi → 点击当前 Wi-Fi 名称
+        
+    - 以太网 → 点击“已连接”
+        
+4. 下滑找到 **“IPv4 地址”**
+    
+
+👉 这一行显示的就是你的 **内网 IP 地址**。
+
+用手机访问时，将浏览器地址栏改成：
+
+```
+http://你的IP:8080
+```
+
+例如：
+
+```
+http://192.168.1.5:8080
+```
+
+即可打开你的私人网盘。
+![[Pasted image 20251120183259.png]]
