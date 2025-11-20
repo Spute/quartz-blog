@@ -107,3 +107,9 @@ obsidian 的插件绝对是一个强大的功能，让你可以自由定义自�
 或：
 
 `![[19abee38-838d-4c7f-8c10-be934801c6cb.jpg|width=300]]`
+
+# 图片自动上传
+复制图片是自动上传r2中
+
+需要启动picgo本地服务器，如果是cf-r2配置还得为这个服务器安装插件
+https://github.com/JYbill/picgo-plugin-cloudflare-r2?tab=readme-ov-file

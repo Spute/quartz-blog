@@ -9,66 +9,58 @@ category: 工具分享
 
 ## 前言
 
-旧电脑再利用，让它成为个人网盘，部署在家里，让家中各种设备都可以上传下载文件、浏览图片、观看本地影视、本地听歌、在线编辑文件，给朋友分享文件等等。
-使用Filebrowser可以帮你实现。
+把一台闲置的旧电脑重新利用起来，其实很简单——把它变成你的**私人网盘**。只要部署在家里，全家所有设备都能随时访问：上传下载文件、浏览照片、在线观看本地电影、听歌、在线编辑文档，全都能做到。这一切，只需要 **Filebrowser**。
 
-Filebrowser 是一款开源的个人网盘和网页版文件管理器。具备操作简单，要求配置低、运行速度快、页面友好等优点。
-相当于你可以用旧电脑快速运行这个软件，搭建一个简易版的NAS（NAS就是放在你家的"超级硬盘"，全家设备都能随时访问，数据完全由你掌控。）
+**Filebrowser** 是一款开源、轻量、易用的网页版文件管理器。无需复杂配置、无需高性能设备，下载即可运行。它能让你的旧电脑瞬间变成一个迷你版 **NAS** ——也就是家里的“超级硬盘”，速度快、访问方便、数据完全掌握在你自己手里。
 
-使用场景例如：
-1、局域网文件共享
-2、自建网盘（同类自建网盘最简单的软件）下载运行即可。
+你可以用它来：
+- 局域网内共享文件
+- 快速搭建一个属于自己的私人网盘（几乎是最简单的自建方案）
 
-家庭网络上快速观看视频，免费实现，不用花钱购买网盘VIP会员，隐私敏感文件也能安全存储在这个个人网盘中。
-
-<strong>官网：</strong>[Welcome - File Browser](https://link.juejin.cn?target=https%3A%2F%2Ffilebrowser.org%2F)
-
-<strong>GitHub 地址：</strong>[filebrowser/filebrowser: Web File Browser (](https://github.com/filebrowser/filebrowser)[github.com](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F)[)](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Ffilebrowser%2Ffilebrowser)
-
-<strong>Docker Hub 地址：</strong>[filebrowser/filebrowser - Docker Image | Docker Hub](https://hub.docker.com/r/filebrowser/filebrowser)
-
-<strong>文档：</strong>[https://www.filebrowser.cn/](https://www.filebrowser.cn/)
+无论是家里在线看视频、随时访问工作资料，还是保存隐私敏感文件，都能免费、安全、稳定地实现。只需一个旧电脑 + Filebrowser，你的家庭私有云就这样搭建好了。
 
 ## 特点
+### **🌟 1. 零安装，马上能用**
+- 下载一个程序，双击就能打开网页网盘。
+- 不需要数据库、不需要配置环境，小白也能搭建。
+### **🌟 2. 对设备要求很低**
+- 老电脑、废旧 NAS、树莓派都能跑。
+- 占内存少，比 Nextcloud、可道云更轻量。
+### **🌟 3. 文件就是硬盘上的文件**
+- 直接显示硬盘里的真实文件夹，不会乱改你的目录结构。
+- 网页看到的内容就是硬盘里的内容。
+### **🌟 4. 浏览速度快**
+- 打开装很多照片的文件夹也不会卡。
+- 适合低性能设备。
+## **核心功能**
+- **文件管理齐全**：上传、下载、重命名、移动、删除、拖拽上传全都有。
+- **在线预览**：图片、视频、音频、PDF、代码文件都能直接看，文本还能在线编辑。
+- **支持多用户**：可以给家人设不同账号，不互相看到对方文件。
+- **安全分享文件**：生成下载链接，可设置密码和有效期。
+## 使用步骤
+ 我这边以windows 系统为例，3步完成部署
 
-相比百度网盘和多数 NAS 产品，Filebrowser 具备以下优势：
-
-<strong>免安装，开箱即用</strong>
-
-   - 仅需下载一个可执行文件（如 Windows 下的 `filebrowser.exe`），直接运行即可。
-   - 用 Go 语言编写，运行速度仅次于 C 语言，小巧高效。
-   <strong>对硬件要求低</strong>
-   - 适合低性能设备（如 ARM 架构路由器、矿渣 NAS、树莓派等），1GB 内存即可流畅运行。
-   - 与需要完整 Web 服务器环境的 Nextcloud、可道云相比，占用资源更少。
-<strong>直接操作硬盘，保持原目录结构</strong>
-
-   - 可访问系统根目录，所见即所得。
-   - 不会因数据库或服务器目录限制破坏硬盘原有结构，也避免网页显示与硬盘内容不一致的情况。
-<strong>访问速度快，无冗余压缩</strong>
-
-   - 可通过命令行关闭图片压缩功能，直接读取图片 EXIF 缩略图。
-   - 浏览 5000 张图片的文件夹仅需约 2 秒，不会因生成缩略图卡死。
-   - 相比 Nextcloud、可道云等动辄后台压缩图片的方案，对低配设备更友好。
-
-核心功能•开箱即用，下载一个可执行文件直接运行，不需要数据库不需要复杂配置，我在树莓派上5分钟就搭好了•文件管理全能，上传、下载、重命名、移动、复制、删除这些基本操作应有尽有，还支持批量操作和拖拽上传•在线预览编辑，图片、视频、音频、PDF、代码文件都能直接在浏览器里打开，Markdown和文本文件还能在线编辑，不用下载到本地•多用户权限系统，可以创建多个用户，每个用户设置不同的访问目录和权限，家人共用一台NAS也能各管各的文件•文件分享功能，生成分享链接给别人下载文件，可以设置密码和有效期，比QQ传文件方便多了
-
-
-## 更保密公开链接分享方式（可选）
-
-普通分享：https://rack-nerd.520233.best/cjtFBNYp
-
-保密分享：https://rack-nerd.520233.best/api/public/dl/cjtFBNYp?token={{哈希值}}
-
-![[HLLHb25qtogT3Ax1lY5cpMO9nLd.png]]
-
-ps:每次修改，文件的哈希值（用于校验内容完整性）都会发生变化，
-
-## windows 系统安装使用
-
-1. 在 github 中下载页面 [https://github.com/filebrowser/filebrowser/releases](https://github.com/filebrowser/filebrowser/releases)
-2. 选择 window 版本（选择 AMD64 的架构）
-3. 下载压缩包，解压后可执行运行 exe 文件，
-4. 会出现命令窗口，找到初始账号和密码
-5. 同一家庭网络下，用手机或者 ipad 都可以通过电脑的 IP 访问这个网盘服务。
+1. **下载 Filebrowser**
+    - 进入 GitHub 发布页`https://github.com/filebrowser/filebrowser/releases`
+    - 找到 **Windows 版本（AMD64）** 并下载
+    - 如果嫌 GitHub 下载慢，也可以直接用我准备好的蓝奏云链接：  
+        `https://wwfx.lanzouu.com/iqcZC3bo8fif`
+2. **运行 Filebrowser**
+    - 将下载的压缩包解压，直接双击运行里面的 `filebrowser.exe`。
+    - **注意文件共享范围**
+        - Filebrowser 会默认共享当前目录的所有内容。
+        - 如果你只想共享某个特定文件夹，只需要把 `filebrowser.exe` 移动到那个目录再运行。
+    - **数据库文件说明**
+        - 首次运行后会自动生成 `filebrowser.db`（用于存储账号密码等信息）。
+        - 若你忘记密码，删除 `filebrowser.db` 后再次运行即可重置为一个新的数据库。
+![[Pasted image 20251120165303.png]]
+3. 会出现命令窗口，找到初始账号和密码。同一家庭网络下，用手机或者 ipad 都可以通过电脑的 IP 访问这个网盘服务。
 
 ![[U1ATblVJDoJvTTxA9hxcKLsGnFg.png]]
+修改语言，更新初识密码
+![[Pasted image 20251120165004.png]]
+
+## 更多参考文档
+<strong>官网文档：</strong>[https://www.filebrowser.cn/](https://www.filebrowser.cn/)
+<strong>GitHub 地址：</strong>[filebrowser/filebrowser: Web File Browser (](https://github.com/filebrowser/filebrowser)[github.com](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2F)[)](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Ffilebrowser%2Ffilebrowser)
+<strong>Docker Hub 地址：</strong>[filebrowser/filebrowser - Docker Image | Docker Hub](https://hub.docker.com/r/filebrowser/filebrowser)
