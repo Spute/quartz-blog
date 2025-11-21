@@ -1,5 +1,9 @@
 ---
 title: 假卡顿，真快乐--15KB 小软件复刻 XP 崩溃现场
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 前言
@@ -26,6 +30,8 @@ XPShadows，一款模仿 WinXP 卡死状态的神奇小玩意。
 项目地址：[https://codeberg.org/ibulis/XPShadows](https://codeberg.org/ibulis/XPShadows)
 
 可以在项目地址下载，也可以使用我下载好的软件：
+- 夸克网盘链接：https://pan.quark.cn/s/8d57b444b362 ，提取码：kTRd 
+- 百度网盘链接：https://pan.baidu.com/s/1W60VB863Vg0r_1VCJtDy2A ，提取码: d3b9
 
 下载后双击运行，然后拖动一个窗口，就能实现类似如下卡顿效果
 

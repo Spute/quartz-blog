@@ -75,8 +75,7 @@ category: 工具分享
 同一局域网下（手机 / iPad / 电脑）都可以通过 **电脑的 IP 地址** 访问你的网盘。
 
 启动后可以在浏览器里修改语言、更新初始密码。
-![[U1ATblVJDoJvTTxA9hxcKLsGnFg.png]]
-![[Pasted image 20251120165004.png]]
+![[U1ATblVJDoJvTTxA9hxcKLsGnFg.png]]![[Pasted image 20251120165004.png]]
 ---
 
 ## 局域网共享访问
@@ -112,7 +111,7 @@ category: 工具分享
     - 以太网 → 点击“已连接”
         
 4. 下滑找到 **“IPv4 地址”**
-    
+![[Pasted image 20251121102025.png]]
 
 👉 这一行显示的就是你的 **内网 IP 地址**。
 
@@ -128,5 +127,5 @@ http://你的IP:8080
 http://192.168.1.5:8080
 ```
 
-即可打开你的私人网盘。
+通过这个地址其他设备即可打开你的私人网盘。
 ![[Pasted image 20251120183259.png]]

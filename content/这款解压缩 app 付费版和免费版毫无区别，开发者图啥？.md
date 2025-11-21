@@ -1,5 +1,5 @@
 ---
-title: 震惊！这款解压缩 app 付费版和免费版毫无区别，开发者图啥？
+title: 这款解压缩 app 付费版和免费版毫无区别，开发者图啥？
 publish: "true"
 ---
 
@@ -60,6 +60,11 @@ PS: 软件是绿色、免费的。如果你下载的有广告、或者要会员�
 [https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
 
 也可以使用我下载好的。
+夸克网盘链接：https://pan.quark.cn/s/6af70d73f571 ，提取码：Z4ay 。
+
+
+PS: 软件是绿色、免费的。如果你下载的有广告、或者要会员收费的，说明你可能下载的是盗版的，赶紧卸载！
+
 
 ## 开源 ZipXtract
 

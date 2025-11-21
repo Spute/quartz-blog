@@ -1,0 +1,40 @@
+views:
+  - type: table
+    name: 文章总表
+    filters:
+      and:
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: 发布内容
+    filters:
+      and:
+        - publish == "true"
+    order:
+      - file.name
+      - file.mtime
+      - file.path
+  - type: table
+    name: 长期内容
+    filters:
+      and:
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: DESC
