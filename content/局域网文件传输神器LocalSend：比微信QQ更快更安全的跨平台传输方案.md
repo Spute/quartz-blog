@@ -1,5 +1,6 @@
 ---
 title: 局域网文件传输神器 LocalSend--比微信 QQ 更快更安全的跨平台传输方案
+publish: "true"
 ---
 
 ## 前言
@@ -16,9 +17,8 @@ title: 局域网文件传输神器 LocalSend--比微信 QQ 更快更安全的跨
 
 ## 核心特点
 
-- <strong>无需联网</strong>：仅需处于同一局域网内，即可高速传输，无需连接公网。
+- <strong>无需联网</strong>：仅需处于同一局域网内，即可==高速==传输，无需连接公网。
 - <strong>全平台支持</strong>：兼容六大主流平台：
-
   - Windows / macOS / Linux
   - Android / iOS / Fire OS
 - <strong>极简操作</strong>
@@ -30,7 +30,13 @@ title: 局域网文件传输神器 LocalSend--比微信 QQ 更快更安全的跨
 
 ### 安装软件
 
+![[项目地址：[https://github.com/localsend/localsend/tree/v1.17.0](https://github.com/localsend/localsend/tree/v1.17.0)
+
 根据发送端和接收端的平台类型，选择不同的软件安装包。如下是不同平台的支持的安装源。
+
+> 蓝奏云网盘链接：
+> 安卓 apk: [https://wwfx.lanzouu.com/isEnZ39mwwji](https://wwfx.lanzouu.com/isEnZ39mwwji) 密码:4s37
+> windows 安装包：[https://wwfx.lanzouu.com/iUTNz39mwxdi](https://wwfx.lanzouu.com/iUTNz39mwxdi) 密码:1wcw
 
 ### 接收端打开接收
 
