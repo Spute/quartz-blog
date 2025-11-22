@@ -120,6 +120,10 @@ button.desktop-explorer {
     padding: 0;
     overscroll-behavior: contain;
 
+    // 添加导航树文章间隔
+    & li {
+      padding: 0.25rem; 
+    }
     & li > a {
       color: var(--dark);
       opacity: 0.75;
