@@ -1,8 +1,11 @@
 ---
 title: Obsidian--一款基于 Markdown 的本地知识管理与笔记工具
+category: 工具分享
+tags:
+  - 知识管理
 ---
 
-# 初识
+# 介绍
 
 ## 前言
 
@@ -35,17 +38,33 @@ obsidian 的插件绝对是一个强大的功能，让你可以自由定义自�
 
 ### 核心插件
 
+
 ### 第三方插件
 
 # 使用 git 实现自动同步
+使用git插件自动同步，好处是不用切换页面就可以推送。可是并不太稳定。
+手动使用git命令实现，需要手动写commit
+最终使用了quartz自带的npx命令，自动帮你生成commit并推送。
 
-![[VLQ5b849XoZVyRxiDFTcb1ifnRb.png]]
+# 发布成网站
 
-![[EkxMb0B5mo8H0FxHYmTchDGCnVd.png]]
+选方案，先选社区活跃的开源框架，这样bug少功能全，更省心省事。简单看了下quartz4是符合这个条件就。
+## 功能点详细比对：
 
-![[FbNabNmUhopgZIxn5RFcFq3MnHd.png]]
+第三方开源发布方案，供各位参考，也可以持续观察作者后续的开发进展，再择优选择。
 
-# 美观好用：Quartz+Cloudflare Pages快速博客发布
+- jekyll 方案 1，即我选用的方案。[GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template ](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
+- jekyll 方案 2，[一位印度老哥写的 103](https://github.com/Jekyll-Garden/jekyll-garden.github.io)
+- hugo 方案(quartz)，[jackyzha0 (Jacky Zhao) · GitHub 272](https://github.com/jackyzha0)
+- logseq 方案，[GitHub - pengx17/logseq-publish: Logseq Publish Action 77](https://github.com/pengx17/logseq-publish)
+- zola 方案，[GitHub - ppeetteerrs/obsidian-zola: A no-brainer solution to turning your Obsidian PKM into a Zola site. 41](https://github.com/ppeetteerrs/obsidian-zola)
+- perlite 方案，[GitHub - secure-77/Perlite: A webbased markdown viewer optimized for Obsidian 45](https://github.com/secure-77/Perlite)
+- gatsby 方案，支持[[横向卷动布局- andy mode]]，但构建时长小时级别，[GitHub - aravindballa/gatsby-theme-andy: A Gatsby theme to build Andy style websites. ](https://github.com/aravindballa/gatsby-theme-andy/)
+
+## 参考链接
+
+- [https://forum-zh.obsidian.md/t/topic/8852](https://forum-zh.obsidian.md/t/topic/8852)
+# 美观好用：Quartz+Cloudflare Pages快速obsidian笔记发布
 
 ## 前言
 
@@ -62,31 +81,39 @@ obsidian 的插件绝对是一个强大的功能，让你可以自由定义自�
 
 部署方式可以参考以下文章，写点非常详细：
 - [美观好用：Obsidian+Quartz+Cloudflare Pages 快速博客发布指南 - 毛可多来](https://www.xulihang.work/Quartz/%E7%BE%8E%E8%A7%82%E5%A5%BD%E7%94%A8%EF%BC%9AObsidian+Quartz+Cloudflare-Pages%E5%BF%AB%E9%80%9F%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97)
-## 功能点详细比对：
 
-精力有限，就只对比这 4 种方案了。下面列上我目前体验对比过的全部第三方开源发布方案，供各位参考，也可以持续观察作者后续的开发进展，再择优选择。
+## PWA实现
+### PWA 是什么？
 
-- jekyll 方案 1，即我选用的方案。[GitHub - maximevaillancourt/digital-garden-jekyll-template: Start your own digital garden using this Jekyll template ](https://github.com/maximevaillancourt/digital-garden-jekyll-template)
-- jekyll 方案 2，[一位印度老哥写的 103](https://github.com/Jekyll-Garden/jekyll-garden.github.io)
-- hugo 方案(quartz)，[jackyzha0 (Jacky Zhao) · GitHub 272](https://github.com/jackyzha0)
-- logseq 方案，[GitHub - pengx17/logseq-publish: Logseq Publish Action 77](https://github.com/pengx17/logseq-publish)
-- zola 方案，[GitHub - ppeetteerrs/obsidian-zola: A no-brainer solution to turning your Obsidian PKM into a Zola site. 41](https://github.com/ppeetteerrs/obsidian-zola)
-- perlite 方案，[GitHub - secure-77/Perlite: A webbased markdown viewer optimized for Obsidian 45](https://github.com/secure-77/Perlite)
-- gatsby 方案，支持[[横向卷动布局- andy mode]]，但构建时长小时级别，[GitHub - aravindballa/gatsby-theme-andy: A Gatsby theme to build Andy style websites. ](https://github.com/aravindballa/gatsby-theme-andy/)
+**PWA** 的全称是 **Progressive Web App**，中文可以翻译为“渐进式网络应用”。
 
-总之，有钱就选官方服务准没错。其次，综合对比后，我选择了 jekyll 方案 1，如何一步步实现，见下文。
+你可以把它理解为一个**使用了现代 Web 技术构建的网站，但能提供类似于原生手机 App 的体验**。
 
-## 参考链接
+它不是一个全新的框架或语言，而是一系列**理念、技术和标准的集合**。
 
-- [https://forum-zh.obsidian.md/t/topic/8852](https://forum-zh.obsidian.md/t/topic/8852)
-- [美观好用：Obsidian+Quartz+Cloudflare Pages 快速博客发布指南 - 毛可多来](https://www.xulihang.work/Quartz/%E7%BE%8E%E8%A7%82%E5%A5%BD%E7%94%A8%EF%BC%9AObsidian+Quartz+Cloudflare-Pages%E5%BF%AB%E9%80%9F%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97)
+**PWA 的核心特点和优势：**
+
+1. **可靠 (Reliable)**
+    
+    - **离线工作**：这是 PWA 最显著的特点之一。通过一项叫做 **Service Worker** 的技术，PWA 可以缓存关键的资源和数据。即使用户的网络连接不稳定甚至完全离线，他们依然可以访问核心内容或使用基本功能。
+        
+    - **快速加载**：Service Worker 可以缓存静态资源（如 HTML、CSS、JS、图片），使得重复访问时速度极快，几乎瞬时加载。
+        
+2. **快速 (Fast)**
+    
+    - 无论网络状态如何，都能提供流畅、快速的交互体验。这极大地提升了用户满意度。
+        
+3. **可安装 (Engaging)**
+    
+    - **可添加到主屏幕**：用户可以直接在浏览器中将 PWA “安装”到手机或电脑的主屏幕上，就像安装一个原生 App 一样。安装后会有一个独立的图标，点击后会以独立的窗口打开，没有浏览器的地址栏和工具栏，体验更像一个 App。
+        
+    - **推送通知**：PWA 可以像原生 App 一样向用户发送推送通知，这对于重新吸引用户、传递重要信息非常有效。
 
 # 基础语法
 
 ## <strong>内部嵌入语法</strong>
 
 这是 <strong>Obsidian 的内部嵌入语法</strong>（也叫 <em>wiki 链接嵌入语法</em>），不是标准 Markdown。
-
 ### 🧩 语法说明
 
 - `[[...]]` 是 <strong>Obsidian 的内部链接格式</strong>
