@@ -95,8 +95,8 @@ const config: QuartzConfig = {
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages({
         colorScheme: "lightMode", // 生成图片时使用的配色方案，与主题色一致，可选 "darkMode" 或 "lightMode"
-        width: 800, // 生成图片的宽度（像素）
-        height: 800, // 生成图片的高度（像素）
+        width: 1200, // 生成图片的宽度（像素）
+        height: 630, // 生成图片的高度（像素）
         excludeRoot: false, // 是否排除 "/" 首页不自动生成图片（false=自动，true=使用默认 og 图片）
       }),
     ],
