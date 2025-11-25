@@ -1,5 +1,6 @@
 ---
 title: 问答式理解--HTTPS 协议
+category: 长期内容
 ---
 
 https 协议是什么？

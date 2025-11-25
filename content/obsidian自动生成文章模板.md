@@ -7,6 +7,16 @@ quartz文章写作
 - `date`：笔记发布的日期字符串，通常使用 `YYYY-MM-DD` 格式。
 
 
+在 Obsidian 窗口里，按下：  
+**Ctrl + Shift + I**  
+（或者菜单：`View` → `Toggle developer tools`）
+
+
+有 Console因为 **Obsidian 是用 Electron 开发的**。
+
+而 Electron =  **Chromium（浏览器内核） + Node.js（后端能力） + 打包成桌面应用**
+这是Obsidian 原生就支持运行 JavaScript 代码的原因
+
 [[Obsidian：一款基于Markdown的本地知识管理与笔记工具]]
 
 ````markdown

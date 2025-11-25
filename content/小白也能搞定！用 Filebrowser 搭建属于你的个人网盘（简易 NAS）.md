@@ -4,7 +4,7 @@ publish: "true"
 tags:
   - 开源软件
   - 文件传输
-category: 工具分享
+category: 文章写作
 ---
 
 ## 前言

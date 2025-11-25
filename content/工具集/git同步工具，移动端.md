@@ -1,6 +1,6 @@
 ---
 title: git sync
-category: 工具分享
+category: 实践记录
 ---
 ## 前言
 

@@ -7,6 +7,7 @@ views:
     order:
       - file.name
       - file.mtime
+      - category
       - file.ctime
       - file.folder
     sort:
@@ -14,6 +15,8 @@ views:
         direction: DESC
       - property: file.name
         direction: DESC
+    columnSize:
+      note.category: 117
   - type: table
     name: 发布内容
     filters:
@@ -22,12 +25,32 @@ views:
     order:
       - file.name
       - file.mtime
+      - category
       - file.path
+    columnSize:
+      note.category: 123
   - type: table
     name: 长期内容
     filters:
       and:
         - file.ext == "md"
+        - category == "长期内容"
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+      - file.folder
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: 实践记录
+    filters:
+      and:
+        - file.ext == "md"
+        - category == "实践记录"
     order:
       - file.name
       - file.mtime

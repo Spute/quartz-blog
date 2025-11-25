@@ -2,7 +2,10 @@
 title: 美观好用：Quartz+Cloudflare Pages快速obsidian笔记发布
 tags:
   - 网站搭建
-category: 动手实践
+category: 文章写作
+publish: "true"
+data: 2025-11-24
+permalink: " 5k25o5wag4xyhrf6wmk4"
 ---
 
 ## 前言
