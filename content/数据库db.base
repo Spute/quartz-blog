@@ -1,5 +1,18 @@
 views:
   - type: table
+    name: 发布内容
+    filters:
+      and:
+        - publish == "true"
+    order:
+      - file.name
+      - file.mtime
+      - category
+      - file.path
+      - file.ctime
+    columnSize:
+      note.category: 123
+  - type: table
     name: 文章总表
     filters:
       and:
@@ -17,18 +30,6 @@ views:
         direction: DESC
     columnSize:
       note.category: 117
-  - type: table
-    name: 发布内容
-    filters:
-      and:
-        - publish == "true"
-    order:
-      - file.name
-      - file.mtime
-      - category
-      - file.path
-    columnSize:
-      note.category: 123
   - type: table
     name: 长期内容
     filters:

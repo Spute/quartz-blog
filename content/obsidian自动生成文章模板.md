@@ -1,3 +1,10 @@
+---
+title:
+publish: "true"
+category: 文章写作
+data: 2025-11-25
+permalink: " rungx96dkxc1viaoe6h1"
+---
 ## 前言
 生成一个permalink 
 生成创建时间
