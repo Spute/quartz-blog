@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "blog.520233.best",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "模板"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
