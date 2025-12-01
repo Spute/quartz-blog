@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: F-Droid 开源 Android APP 推荐列表
 ---
 

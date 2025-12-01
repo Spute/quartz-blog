@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 这款解压缩 app 付费版和免费版毫无区别，开发者图啥？
 publish: "true"
 category: 文章写作

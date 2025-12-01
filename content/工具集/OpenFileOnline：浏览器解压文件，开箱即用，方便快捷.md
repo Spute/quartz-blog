@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: OpenFileOnline--浏览器解压文件，开箱即用，方便快捷
 ---
 

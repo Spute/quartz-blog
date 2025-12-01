@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: SafetyPDF--让 PDF 隐私文件，安全压缩不出门
 ---
 

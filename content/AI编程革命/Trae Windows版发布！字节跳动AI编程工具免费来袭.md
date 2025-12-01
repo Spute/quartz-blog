@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: Trae Windows 版发布！字节跳动 AI 编程工具免费来袭
 ---
 

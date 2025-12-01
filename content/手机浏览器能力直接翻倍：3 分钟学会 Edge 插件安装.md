@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 手机也能装浏览器插件！Edge 安卓完全攻略
 publish: "true"
 tags:

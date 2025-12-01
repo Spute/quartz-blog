@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: copy as curl 值得做成插件吗？
 ---
 

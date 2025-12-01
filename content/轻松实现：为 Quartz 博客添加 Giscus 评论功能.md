@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 轻松实现：为 Quartz 博客添加 Giscus 评论功能
 publish: "true"
 category: 文章写作

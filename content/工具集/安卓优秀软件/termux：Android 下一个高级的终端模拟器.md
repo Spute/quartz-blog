@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: termux--Android 下一个高级的终端模拟器
 ---
 

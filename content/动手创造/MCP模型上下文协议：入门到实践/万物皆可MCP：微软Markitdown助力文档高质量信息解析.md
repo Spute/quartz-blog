@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 万物皆可 MCP--微软 Markitdown 助力文档高质量信息解析
 ---
 

@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 假卡顿，真快乐--15KB 小软件复刻 XP 崩溃现场
 publish: "true"
 category: 文章写作

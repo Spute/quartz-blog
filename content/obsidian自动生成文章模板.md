@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title:
 publish: "false"
 category: 文章写作
@@ -16,6 +17,9 @@ tags:
 - 希望自动化生成，减少手动操作。
 Obsidian 笔记既能自由修改标题，又能保持每篇文章永久的固定 URL，非常适合个人知识库、博客或长期内容管理。
 
+## 实现方案
+
+Quartz 原生支持的一些常用 frontmatter 字段：
 
 生成一个permalink 
 生成创建时间

@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 美观好用：Quartz+Cloudflare Pages快速obsidian笔记发布
 tags:
   - 网站搭建

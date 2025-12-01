@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: quicker+MacroDroid 实现电脑创建时间日志
 ---
 

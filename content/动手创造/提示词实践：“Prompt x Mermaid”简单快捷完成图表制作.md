@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 提示词实践--“Prompt x Mermaid”简单快捷完成图表制作
 ---
 

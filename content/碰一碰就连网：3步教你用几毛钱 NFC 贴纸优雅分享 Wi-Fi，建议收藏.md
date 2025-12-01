@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 碰一碰就连网--3 步教你用几毛钱 NFC 贴纸优雅分享 Wi-Fi，建议收藏
 publish: "true"
 category: 文章写作

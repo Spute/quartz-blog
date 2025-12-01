@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 如何通过 django 和 Sphinx 导出 django4.2 的中文版 pdf
 ---
 

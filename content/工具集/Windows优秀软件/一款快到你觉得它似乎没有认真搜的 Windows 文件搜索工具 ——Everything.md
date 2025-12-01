@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 一款快到你觉得它似乎没有认真搜的 Windows 文件搜索工具 ——Everything
 ---
 

@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: scrcpy--显示和控制你的 Android 设备
 ---
 

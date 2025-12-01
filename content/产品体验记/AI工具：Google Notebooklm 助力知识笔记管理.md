@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: AI 工具--Google Notebooklm 助力知识笔记管理
 ---
 

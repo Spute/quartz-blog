@@ -1,4 +1,5 @@
 ---
+date: 2025-12-01
 title: 用 Filebrowser 轻松搭建你的个人网盘
 publish: "true"
 tags:
