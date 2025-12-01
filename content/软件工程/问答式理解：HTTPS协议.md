@@ -1,4 +1,5 @@
 ---
+alias: "1j79qji4lutizc0uny1h"
 date: 2025-12-01
 title: 问答式理解--HTTPS 协议
 category: 长期内容

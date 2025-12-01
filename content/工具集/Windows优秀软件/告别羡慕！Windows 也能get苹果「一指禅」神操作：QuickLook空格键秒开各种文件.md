@@ -1,4 +1,5 @@
 ---
+alias: "xp2lizyqt3rbgcno1nsq"
 date: 2025-12-01
 title: 告别羡慕！Windows 也能 get 苹果「一指禅」神操作--QuickLook 空格键秒开各种文件
 ---

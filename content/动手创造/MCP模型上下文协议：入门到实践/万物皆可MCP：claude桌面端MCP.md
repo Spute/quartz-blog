@@ -1,4 +1,5 @@
 ---
+alias: "a3m6jd3i4o2si50rn9jd"
 date: 2025-12-01
 title: 万物皆可 MCP--claude 桌面端 MCP
 ---

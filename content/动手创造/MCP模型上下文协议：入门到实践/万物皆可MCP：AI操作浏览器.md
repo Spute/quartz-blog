@@ -1,4 +1,5 @@
 ---
+alias: "11pjoxbx5mrov2kjbk4t"
 date: 2025-12-01
 title: 万物皆可 MCP--AI 操作浏览器
 ---

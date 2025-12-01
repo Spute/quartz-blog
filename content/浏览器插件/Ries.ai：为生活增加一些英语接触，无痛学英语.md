@@ -1,4 +1,5 @@
 ---
+alias: "5adn9sqi8uf1syge62vm"
 date: 2025-12-01
 title: Ries.ai--为生活增加一些英语接触，无痛学英语
 ---

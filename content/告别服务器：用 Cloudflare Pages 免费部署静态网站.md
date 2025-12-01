@@ -1,4 +1,5 @@
 ---
+alias: "xn73g2la5gzq91jqc072"
 date: 2025-12-01
 title: 告别服务器：用 Cloudflare Pages 免费部署静态网站
 publish: "true"

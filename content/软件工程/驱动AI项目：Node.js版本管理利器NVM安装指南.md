@@ -1,4 +1,5 @@
 ---
+alias: "1rivsxyeo0dqemzld87n"
 date: 2025-12-01
 title: 驱动 AI 项目--Node.js 版本管理利器 NVM 安装指南
 ---

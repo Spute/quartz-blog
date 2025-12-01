@@ -1,4 +1,5 @@
 ---
+alias: "2wybzvfalrh79bnig6j7"
 date: 2025-12-01
 title: 使用扣子开发专属 AI 客服助手
 ---

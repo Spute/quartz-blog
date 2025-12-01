@@ -1,4 +1,5 @@
 ---
+alias: "jmmyfskd3h5b350ki559"
 date: 2025-12-01
 title: 初步体验 Kimi K2 大模型
 ---

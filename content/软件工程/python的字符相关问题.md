@@ -1,4 +1,5 @@
 ---
+alias: "7d8uev15lk5ixaf0loer"
 date: 2025-12-01
 title: python 的字符相关问题
 ---

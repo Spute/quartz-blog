@@ -3,7 +3,7 @@ category: 长期内容
 title: 基于obsidian的知识管理
 publish: "false"
 date: 2025-11-28
-alias: " ilngcv4kzxsc8lup0334"
+alias: "ilngcv4kzxsc8lup0334"
 tags:
   - obsidian
 ---

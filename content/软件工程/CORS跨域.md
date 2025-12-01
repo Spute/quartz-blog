@@ -1,4 +1,5 @@
 ---
+alias: "p112v0leas3qm2chnk7i"
 date: 2025-12-01
 title: CORS 跨域
 ---

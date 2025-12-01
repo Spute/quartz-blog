@@ -1,4 +1,5 @@
 ---
+alias: "4rycmda3df7s17n3hdg3"
 date: 2025-12-01
 title: pairdrop 工具--无需安装、无需登录即可跨平台传输文件
 ---

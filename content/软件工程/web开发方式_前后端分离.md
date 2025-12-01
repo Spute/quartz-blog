@@ -1,4 +1,5 @@
 ---
+alias: "5dbywiyrv904fpn6tc3a"
 date: 2025-12-01
 title: web 开发方式--前后端分离
 ---

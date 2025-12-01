@@ -1,4 +1,5 @@
 ---
+alias: "t314eg2o6ya36bc4n5na"
 date: 2025-12-01
 title: 开源全能工具箱--IT-Tools，让开发更高效更纯粹
 ---

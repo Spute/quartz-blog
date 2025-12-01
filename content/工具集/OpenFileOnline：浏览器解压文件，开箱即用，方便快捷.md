@@ -1,4 +1,5 @@
 ---
+alias: "8qczrw5e93x4z6tvhzi8"
 date: 2025-12-01
 title: OpenFileOnline--浏览器解压文件，开箱即用，方便快捷
 ---

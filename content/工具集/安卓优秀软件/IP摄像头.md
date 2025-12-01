@@ -1,4 +1,5 @@
 ---
+alias: "oxbusf3obbgu1wbn2u1b"
 date: 2025-12-01
 title: IP 摄像头
 ---

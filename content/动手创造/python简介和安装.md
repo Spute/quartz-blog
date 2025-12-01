@@ -1,4 +1,5 @@
 ---
+alias: "arh4yblpdi0jgeb5q661"
 date: 2025-12-01
 title: python 简介和安装
 ---

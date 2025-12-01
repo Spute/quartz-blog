@@ -1,4 +1,5 @@
 ---
+alias: "wzu8ulzxg0vu9m7at6vp"
 date: 2025-12-01
 title: OAuth 授权机制
 ---

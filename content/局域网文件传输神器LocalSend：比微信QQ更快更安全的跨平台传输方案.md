@@ -1,4 +1,5 @@
 ---
+alias: "ojx59wjo4fl9bp8ds826"
 date: 2025-12-01
 title: 局域网文件传输神器 LocalSend--比微信 QQ 更快更安全的跨平台传输方案
 publish: "true"

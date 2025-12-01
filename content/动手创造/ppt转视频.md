@@ -1,4 +1,5 @@
 ---
+alias: "4nsoc0qp8i3pvjlh0bv6"
 date: 2025-12-01
 title: ppt 转视频
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "jkdkzgvo1i8b4cu6dosn"
 date: 2025-12-01
 title: 测试驱动开发案例 TDD--保龄球计分板
 ---

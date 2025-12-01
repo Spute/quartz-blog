@@ -1,4 +1,5 @@
 ---
+alias: "5dng91b89fcygb4hldfe"
 date: 2025-12-01
 title: 标签页太多？OneTab 一键帮你「收纳与优化」浏览器标签页
 ---

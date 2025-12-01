@@ -1,4 +1,5 @@
 ---
+alias: "o502s4q6ercii46lbq4c"
 date: 2025-12-01
 title: 扣子 AI 工作流一键生成爆款书单视频
 ---

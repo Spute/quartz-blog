@@ -1,4 +1,5 @@
 ---
+alias: "ahy7blcli27jcdh4c4y4"
 date: 2025-12-01
 title: Wan2.2-Animate-- 统一的角色动画和视频人物替换模型
 ---

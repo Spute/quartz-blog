@@ -1,4 +1,5 @@
 ---
+alias: "s48m6yb21f3q1jx2lgyk"
 date: 2025-12-01
 title: Mihon，手机免费看漫画的开源 APP，附常用漫画源
 ---

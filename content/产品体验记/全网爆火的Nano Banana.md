@@ -1,4 +1,5 @@
 ---
+alias: "wtm64dwgxgwxy73fs8gu"
 date: 2025-12-01
 title: 全网爆火的 Nano Banana
 ---

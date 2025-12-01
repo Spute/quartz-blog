@@ -1,4 +1,5 @@
 ---
+alias: "ng98hja19a68wfpm33f0"
 date: 2025-12-01
 title: Save All Resources ｜ 一键保存网页资源到本地
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "52g4yg6sfnu6q39fu4ph"
 date: 2025-12-01
 title: AI 工具--AmyMind，轻量小巧的在线 AI 思维导图工具
 ---

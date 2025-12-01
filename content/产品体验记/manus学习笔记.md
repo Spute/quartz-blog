@@ -1,4 +1,5 @@
 ---
+alias: "7n2sb97omwxgqwwgxr1l"
 date: 2025-12-01
 title: manus 学习笔记
 ---

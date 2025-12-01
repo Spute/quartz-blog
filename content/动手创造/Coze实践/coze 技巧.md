@@ -1,4 +1,5 @@
 ---
+alias: "u8m47thk1ui02v1d6mt9"
 date: 2025-12-01
 title: coze 技巧
 ---

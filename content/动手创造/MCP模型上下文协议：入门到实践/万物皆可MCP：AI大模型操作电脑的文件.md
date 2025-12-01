@@ -1,4 +1,5 @@
 ---
+alias: "cp8ljsi661vvummtnp5v"
 date: 2025-12-01
 title: 万物皆可 MCP--AI 大模型操作电脑的文件
 ---

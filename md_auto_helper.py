@@ -1,5 +1,7 @@
 import os
 import re
+import random
+import string
 from datetime import datetime
 
 # -------- 修改这里：测试单文件路径（可选） --------
@@ -20,6 +22,12 @@ def get_file_created_time(path):
     created_ts = stat.st_ctime
     return datetime.fromtimestamp(created_ts).strftime("%Y-%m-%d")
 
+def random_alias(length=20):
+    """生成长度为 length 的随机字符串"""
+    chars = string.ascii_lowercase + string.digits
+    return ''.join(random.choices(chars, k=length))
+
+
 def process_md_file(path):
     filename = os.path.splitext(os.path.basename(path))[0]
 
@@ -36,37 +44,50 @@ def process_md_file(path):
     # 匹配 frontmatter
     fm_match = re.match(r"^---\n(.*?)\n---\n", content, re.DOTALL)
 
-    # ---------------------------
-    # ① 无 frontmatter → 创建
-    # ---------------------------
+    # ===================================================================
+    # ① 无 frontmatter → 创建 frontmatter + date + alias
+    # ===================================================================
     if not fm_match:
-        new_frontmatter = f"---\ndate: {created_time}\n---\n"
+        alias_value = random_alias()
+        new_frontmatter = (
+            f"---\n"
+            f"date: {created_time}\n"
+            f'alias: "{alias_value}"\n'
+            f"---\n"
+        )
         new_content = new_frontmatter + content
         with open(path, "w", encoding="utf-8") as f:
             f.write(new_content)
-        print(f"[创建 frontmatter + 添加 date] {path}")
+        print(f"[创建 frontmatter + 添加 date + alias] {path}")
         return
 
-    # ---------------------------
-    # ② 有 frontmatter → 检查是否存在 date
-    # ---------------------------
+    # ===================================================================
+    # ② 已有 frontmatter → 检查 date 与 alias
+    # ===================================================================
     frontmatter = fm_match.group(1)
     body = content[fm_match.end():]
 
-    # 已经存在日期 → 不修改
-    if re.search(r"^date\s*:", frontmatter, re.MULTILINE):
-        print(f"[保留已有 date] {path}")
-        return
+    updated_frontmatter = frontmatter
 
-    # 不存在 → 添加 date 字段
-    new_frontmatter = f"date: {created_time}\n" + frontmatter
-    new_content = f"---\n{new_frontmatter}\n---\n{body}"
+    # --- 若无 date 字段 → 添加 ---
+    if not re.search(r"^date\s*:", frontmatter, re.MULTILINE):
+        updated_frontmatter = f"date: {created_time}\n" + updated_frontmatter
+        print(f"[添加 date 字段] {path}")
+    else:
+        print(f"[保留已有 date] {path}")
+
+    # --- 若无 alias 字段 → 添加 ---
+    if not re.search(r"^alias\s*:", frontmatter, re.MULTILINE):
+        alias_value = random_alias()
+        updated_frontmatter = f'alias: "{alias_value}"\n' + updated_frontmatter
+        print(f"[添加 alias 字段] {path}")
+    else:
+        print(f"[保留已有 alias] {path}")
+
+    new_content = f"---\n{updated_frontmatter}\n---\n{body}"
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(new_content)
-
-    print(f"[添加 date 字段] {path}")
-
 
 def process_directory():
     for root, _, files in os.walk(TARGET_DIR):

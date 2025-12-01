@@ -1,4 +1,5 @@
 ---
+alias: "qn2u0k2xd3nzddxez60k"
 date: 2025-12-01
 title: StringArt--一键把照片变成钉子线艺术
 ---

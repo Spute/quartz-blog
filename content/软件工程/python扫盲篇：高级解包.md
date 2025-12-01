@@ -1,4 +1,5 @@
 ---
+alias: "wsg8evmp81vnqybr6fm9"
 date: 2025-12-01
 title: python 扫盲篇--高级解包
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "ll4075f5toargsm19wh4"
 date: 2025-12-01
 title: 万物皆可 MCP--AI 模型轻松进行 B 站视频搜索
 ---

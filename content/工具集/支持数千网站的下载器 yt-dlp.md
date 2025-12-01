@@ -1,4 +1,5 @@
 ---
+alias: "ahwfw66bwc54qfzr4fc3"
 date: 2025-12-01
 title: 支持数千网站的下载器 yt-dlp
 ---

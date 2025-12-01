@@ -1,4 +1,5 @@
 ---
+alias: "cwcqulpyhesm5zk4zg3m"
 date: 2025-12-01
 title: AI 语音工具合集
 ---

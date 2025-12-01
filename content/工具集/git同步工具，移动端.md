@@ -1,4 +1,5 @@
 ---
+alias: "hoqkzq3idgfx6o8hdhuo"
 date: 2025-12-01
 title: git sync
 category: 实践记录

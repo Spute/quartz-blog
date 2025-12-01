@@ -1,4 +1,5 @@
 ---
+alias: "3r6hphe3taz8zma71h6p"
 date: 2025-12-01
 title: Ditto--让 Windows 剪贴板更强大、更好用的开源工具
 ---

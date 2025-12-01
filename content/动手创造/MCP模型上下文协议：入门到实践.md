@@ -1,4 +1,5 @@
 ---
+alias: "l0b9f93el403s1rqqkxd"
 date: 2025-12-01
 title: MCP 模型上下文协议--入门到实践
 ---

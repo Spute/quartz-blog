@@ -1,4 +1,5 @@
 ---
+alias: "7s7xsdiwbhsytcadz9tw"
 date: 2025-12-01
 title: django-celery-beat
 ---

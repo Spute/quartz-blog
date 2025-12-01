@@ -1,4 +1,5 @@
 ---
+alias: "tijup962kyvv65pu5jae"
 date: 2025-12-01
 title: MacroDroid--安卓用户的快捷指令替代方案
 ---

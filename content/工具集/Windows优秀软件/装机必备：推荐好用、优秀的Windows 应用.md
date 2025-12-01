@@ -1,4 +1,5 @@
 ---
+alias: "ii0qqhnhv6woil7m5oau"
 date: 2025-12-01
 title: 装机必备--推荐好用、优秀的 Windows 应用
 ---

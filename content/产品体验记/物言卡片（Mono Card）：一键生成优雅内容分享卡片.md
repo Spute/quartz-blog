@@ -1,4 +1,5 @@
 ---
+alias: "de7nxjfcazefi5efnbfj"
 date: 2025-12-01
 title: 物言卡片（Mono Card）--一键生成优雅内容分享卡片
 ---

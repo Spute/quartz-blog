@@ -1,4 +1,5 @@
 ---
+alias: "per18th9ckbl3qta0rcz"
 date: 2025-12-01
 title: Obsidian--一款基于 Markdown 的本地知识管理与笔记工具
 category: 文章写作

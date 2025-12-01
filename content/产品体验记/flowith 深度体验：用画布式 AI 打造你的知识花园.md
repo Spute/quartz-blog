@@ -1,4 +1,5 @@
 ---
+alias: "dt7ndf7btww1m4oyehv9"
 date: 2025-12-01
 title: flowith 深度体验--用画布式 AI 打造你的知识花园
 ---

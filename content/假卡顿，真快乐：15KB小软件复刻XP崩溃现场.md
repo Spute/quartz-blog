@@ -1,4 +1,5 @@
 ---
+alias: "kn6vb5i3zht7jv1gmoo0"
 date: 2025-12-01
 title: 假卡顿，真快乐--15KB 小软件复刻 XP 崩溃现场
 publish: "true"

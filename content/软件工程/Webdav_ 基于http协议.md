@@ -1,4 +1,5 @@
 ---
+alias: "o7foqtur6jn68l2t0jnh"
 date: 2025-12-01
 title: Webdav-- 基于 http 协议
 ---

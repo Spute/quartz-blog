@@ -1,4 +1,5 @@
 ---
+alias: "bf5mi38uvfu4nr6i502y"
 date: 2025-12-01
 title: 理解 SSH 认证
 ---

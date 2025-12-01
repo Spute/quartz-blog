@@ -1,4 +1,5 @@
 ---
+alias: "dc01sqafh11am82tq89i"
 date: 2025-12-01
 title: Qwerty Learner--一款免费开源的英语单词背诵、英语键盘输入练习工具
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "63m7d9mwomc4xthn7il3"
 date: 2025-12-01
 title: copy as curl 值得做成插件吗？
 ---

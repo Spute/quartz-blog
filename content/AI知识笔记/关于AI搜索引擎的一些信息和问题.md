@@ -1,4 +1,5 @@
 ---
+alias: "sm0wi6waq5lcohpv7lro"
 date: 2025-12-01
 title: 关于 AI 搜索引擎的一些信息和问题
 ---

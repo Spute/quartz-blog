@@ -1,4 +1,5 @@
 ---
+alias: "4vj5lfbtao81a6vlyv25"
 title: pdfpc-tc：浏览器 PDF 演示器，即开即用，无需安装
 publish: "true"
 category: 文章写作

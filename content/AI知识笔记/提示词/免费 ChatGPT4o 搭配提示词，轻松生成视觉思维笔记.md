@@ -1,4 +1,5 @@
 ---
+alias: "nc49939ertdhomokb7ul"
 date: 2025-12-01
 title: 免费 ChatGPT4o 搭配提示词，轻松生成视觉思维笔记
 ---

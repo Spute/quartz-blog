@@ -1,4 +1,5 @@
 ---
+alias: "mwk2l6x4jeou7c5wwgs7"
 date: 2025-12-01
 title: 轻松实现：为 Quartz 博客添加 Giscus 评论功能
 publish: "true"

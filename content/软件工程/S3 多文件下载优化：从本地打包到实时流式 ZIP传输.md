@@ -1,4 +1,5 @@
 ---
+alias: "23h0pinr3h0mqf676vlw"
 date: 2025-12-01
 title: S3 多文件下载优化--从本地打包到实时流式 ZIP 传输
 ---

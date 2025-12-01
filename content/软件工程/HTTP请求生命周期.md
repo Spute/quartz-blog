@@ -1,4 +1,5 @@
 ---
+alias: "4gngq0lknukglhi87fi0"
 date: 2025-12-01
 title: HTTP 请求生命周期
 ---

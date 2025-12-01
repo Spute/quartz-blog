@@ -1,4 +1,5 @@
 ---
+alias: "zsbb3j54e6of9kxmxp68"
 date: 2025-12-01
 title: 一个 React 库-- holographic-sticker，帮你做超炫的全息贴纸效果
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "y3njvswiwxuce8kfnlp8"
 date: 2025-12-01
 title: 一款免费好用的 AI 助手平台 Cherry Stduio，all in one 多模型
 ---

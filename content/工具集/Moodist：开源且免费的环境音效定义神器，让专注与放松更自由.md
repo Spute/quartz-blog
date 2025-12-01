@@ -1,4 +1,5 @@
 ---
+alias: "9sm2hjrbqdtx1oljcfu1"
 date: 2025-12-01
 title: Moodist--开源且免费的环境音效定义神器，让专注与放松更自由
 ---

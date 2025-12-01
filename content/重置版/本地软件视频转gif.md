@@ -1,4 +1,5 @@
 ---
+alias: "z1pqk6j5rsn5r7mcigel"
 date: 2025-12-01
 title: 本地软件视频转 gif
 publish: "false"

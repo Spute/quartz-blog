@@ -1,4 +1,5 @@
 ---
+alias: "v37atnxgsrz38ltwryh7"
 date: 2025-12-01
 title: 万物皆可 MCP--提取抖音无水印视频链接，视频文案
 ---

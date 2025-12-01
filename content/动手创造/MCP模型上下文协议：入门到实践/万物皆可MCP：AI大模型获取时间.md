@@ -1,4 +1,5 @@
 ---
+alias: "vemr6wjw5eqzgrjyuefl"
 date: 2025-12-01
 title: 万物皆可 MCP--AI 大模型获取时间
 ---

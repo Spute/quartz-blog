@@ -1,4 +1,5 @@
 ---
+alias: "ds1lpob9whnjsgtyqeyz"
 date: 2025-12-01
 title: python 优雅分组和计数
 ---

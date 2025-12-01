@@ -1,4 +1,5 @@
 ---
+alias: "rafljcjqsmbh7vq1g3yr"
 date: 2025-12-01
 title: AI 常用术语
 ---

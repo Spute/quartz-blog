@@ -1,4 +1,5 @@
 ---
+alias: "hpwjf56v55v5r1xf64kn"
 date: 2025-12-01
 title: coze 空间
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "ujhwimkumjxruj678dp7"
 date: 2025-12-01
 title: 一机多用--搞定 Android 应用多开
 ---

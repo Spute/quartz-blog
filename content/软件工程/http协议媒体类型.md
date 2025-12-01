@@ -1,4 +1,5 @@
 ---
+alias: "jcn2j42toz0clf5hyqan"
 date: 2025-12-01
 title: http 协议媒体类型
 ---

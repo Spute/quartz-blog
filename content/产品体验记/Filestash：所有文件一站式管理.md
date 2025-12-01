@@ -1,4 +1,5 @@
 ---
+alias: "gdbjztghyi7fjxkf6wek"
 date: 2025-12-01
 title: Filestash--所有文件一站式管理
 ---

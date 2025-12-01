@@ -1,4 +1,5 @@
 ---
+alias: "k5oydovh6f3lecw5xten"
 date: 2025-12-01
 title: Quicker--超强大的快捷操作面板，可以高度定制自动化
 ---

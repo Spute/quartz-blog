@@ -1,4 +1,5 @@
 ---
+alias: "tnwkz2g7jx18wlzrz9t9"
 date: 2025-12-01
 title: Python 打包分发
 ---

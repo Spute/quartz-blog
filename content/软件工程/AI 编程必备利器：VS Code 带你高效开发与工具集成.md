@@ -1,4 +1,5 @@
 ---
+alias: "crqsw8jahikf19b6wdbf"
 date: 2025-12-01
 title: AI 编程必备利器--VS Code 带你高效开发与工具集成
 ---

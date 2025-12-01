@@ -1,4 +1,5 @@
 ---
+alias: "h36dah8zt6wusx201dxx"
 date: 2025-12-01
 title: 基于 tree.js 实现的 3D 骰子
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "4tfiap9eg632ny4ksmv1"
 date: 2025-12-01
 title: web 服务器、应用服务器和应用程序的对比
 ---

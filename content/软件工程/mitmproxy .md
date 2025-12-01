@@ -1,4 +1,5 @@
 ---
+alias: "e4qi8togfnrgz9hvslvh"
 date: 2025-12-01
 title: mitmproxy
 ---

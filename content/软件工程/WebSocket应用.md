@@ -1,4 +1,5 @@
 ---
+alias: "cf8xch5o9zgmc3bv67t5"
 date: 2025-12-01
 title: WebSocket 应用
 ---

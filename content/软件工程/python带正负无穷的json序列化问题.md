@@ -1,4 +1,5 @@
 ---
+alias: "fetn0i0leyokven7oh34"
 date: 2025-12-01
 title: python 带正负无穷的 json 序列化问题
 ---

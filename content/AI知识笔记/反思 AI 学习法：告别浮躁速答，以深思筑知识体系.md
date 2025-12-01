@@ -1,4 +1,5 @@
 ---
+alias: "nnskw61ijtir9kluko5x"
 date: 2025-12-01
 title: 反思 AI 学习法--告别浮躁速答，以深思筑知识体系
 ---

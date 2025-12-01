@@ -1,4 +1,5 @@
 ---
+alias: "co76m42hubn3fwcurf96"
 date: 2025-12-01
 title:
 publish: "false"

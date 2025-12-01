@@ -1,4 +1,5 @@
 ---
+alias: "ntzw306b2zyfnqtfy183"
 date: 2025-12-01
 title: Manus 体验
 ---

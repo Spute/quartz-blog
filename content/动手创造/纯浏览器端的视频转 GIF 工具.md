@@ -1,4 +1,5 @@
 ---
+alias: "1ukl2wyzhounxi2n28ik"
 date: 2025-12-01
 title: 纯浏览器端的视频转 GIF 工具
 ---

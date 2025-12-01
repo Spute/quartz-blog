@@ -1,4 +1,5 @@
 ---
+alias: "wy6krevaibn2k01go69r"
 date: 2025-12-01
 title: 推荐一个 CSDN 复制插件--无需登录！一键复制 CSDN 内容
 ---

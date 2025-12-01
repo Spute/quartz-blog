@@ -1,4 +1,5 @@
 ---
+alias: "8pc9qtawgznyrqxori59"
 date: 2025-12-01
 title: 快速读懂 GPT-5 发布会精简版 ｜ 价格屠夫、编程惊艳，新功能乏善可陈
 ---

@@ -1,4 +1,5 @@
 ---
+alias: "mb8el88u8zwb36cvjp5k"
 date: 2025-12-01
 title: 万物皆可 MCP--AI 大模型操作数据库
 ---

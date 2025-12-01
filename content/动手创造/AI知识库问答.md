@@ -1,4 +1,5 @@
 ---
+alias: "r2kjplx1o80hcfcm614y"
 date: 2025-12-01
 title: AI 知识库问答
 ---

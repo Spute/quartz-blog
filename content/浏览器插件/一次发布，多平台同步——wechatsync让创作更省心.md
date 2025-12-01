@@ -1,4 +1,5 @@
 ---
+alias: "lqy8gtrw9t6cluypcqvt"
 date: 2025-12-01
 title: 一次发布，多平台同步——wechatsync 让创作更省心
 ---
