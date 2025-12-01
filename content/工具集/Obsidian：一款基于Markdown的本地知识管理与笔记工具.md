@@ -62,3 +62,8 @@ tags:
 
 需要启动picgo本地服务器，如果是cf-r2配置还得为这个服务器安装插件
 https://github.com/JYbill/picgo-plugin-cloudflare-r2?tab=readme-ov-file
+
+
+## 常用快捷键
+
+替换：ctrl + H

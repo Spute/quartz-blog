@@ -1,12 +1,11 @@
 ---
-alias: "6xg4urpiud8e299cpq16"
+alias: 6xg4urpiud8e299cpq16
 date: 2025-12-01
 title: 用 Filebrowser 轻松搭建你的个人网盘
 publish: "true"
 tags:
   - 开源软件
-  - 文件传输
-  - 实践
+  - 工具分享
 category: 文章写作
 ---
 
