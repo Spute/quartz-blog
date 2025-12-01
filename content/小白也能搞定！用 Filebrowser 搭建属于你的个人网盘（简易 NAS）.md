@@ -4,6 +4,7 @@ publish: "true"
 tags:
   - 开源软件
   - 文件传输
+  - 实践
 category: 文章写作
 ---
 

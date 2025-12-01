@@ -1,9 +1,12 @@
 ---
 title:
-publish: "true"
+publish: "false"
 category: 文章写作
 data: 2025-11-25
 permalink: " rungx96dkxc1viaoe6h1"
+tags:
+  - obsidian
+  - 实践
 ---
 ## 前言
 

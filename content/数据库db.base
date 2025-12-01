@@ -8,8 +8,11 @@ views:
       - file.name
       - file.mtime
       - category
-      - file.path
       - file.ctime
+      - file.path
+    sort:
+      - property: file.path
+        direction: DESC
     columnSize:
       note.category: 123
   - type: table

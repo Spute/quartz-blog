@@ -2,7 +2,8 @@
 title: 手机也能装浏览器插件！Edge 安卓完全攻略
 publish: "true"
 tags:
-  - 文章
+  - 实践
+category: 文章写作
 ---
 ## 前言
 

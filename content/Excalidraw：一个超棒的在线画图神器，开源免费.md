@@ -1,7 +1,8 @@
 ---
 title: Excalidraw：一个超棒的在线画图神器，开源免费
 tags:
-  - 画布
+  - 工具分享
+  - 开源软件
 publish: "true"
 category: 文章写作
 date: 2025-11-28

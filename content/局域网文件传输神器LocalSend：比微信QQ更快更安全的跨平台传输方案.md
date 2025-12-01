@@ -1,6 +1,10 @@
 ---
 title: 局域网文件传输神器 LocalSend--比微信 QQ 更快更安全的跨平台传输方案
 publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
+  - 移动端
 ---
 
 ## 前言
