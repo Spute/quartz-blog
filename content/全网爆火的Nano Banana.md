@@ -40,7 +40,8 @@ Nano-banana 可以轻松换背景、改风格、调表情，甚至处理复杂�
 这个开源项目收集了 Nano-banana 在各个任务场景下生成的令人惊艳的<strong>图片和提示词</strong>，全方位展示 Google 在图像生成与编辑的无限可能。希望能帮助你更好地了解 Nano-banana。快一起解锁 Nano-banana 的多图融合与创意编辑力量吧！
 
 ![[ZljObf0MsoJpJ4xTV5tcVtBLnpe.png]]
-## Nano Banana Pro文生图 AI，110 个惊艳案例合集
+## Nano Banana Pro文生图 AI，550 个惊艳案例合集(含提示词)
+最近看到一个Nano Banana Pro提示词资源，或许对你有帮助。[Nano Banana Pro 提示词大全](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README_zh.md)
 **Nano Banana Pro** 是 Google 最新的多模态 AI 模型，具有以下特点：
 
 - 🎯 **多模态理解** - 处理文本、图像和视频
@@ -49,10 +50,9 @@ Nano-banana 可以轻松换背景、改风格、调表情，甚至处理复杂�
 - 🌈 **多样风格** - 从像素艺术到油画
 - 🔧 **精确控制** - 详细的构图和光照
 - 📐 **复杂场景** - 多对象、多角色渲染
-最近看到一个提示词资源，或许对你有帮助。
 
-[Nano Banana Pro 提示词大全](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/blob/main/README_zh.md)
-这个仓库收集了500+的 Nano Banana Pro 模型提示词，每一个提示词都有图片，超过一半提示词带有参数。
+
+这个仓库收集了**550**的 Nano Banana Pro 模型提示词，每一个提示词都有图片，超过一半提示词带有参数。
 
 网页版：https://youmind.com/zh-CN/nano-banana-pro-prompts
 
