@@ -1,14 +1,12 @@
 ---
-alias: "0nc9laxv4xdkzrjd80zh"
+alias: 0nc9laxv4xdkzrjd80zh
 date: 2025-12-01
-title: 安卓--距离测量软件
+title: Ruler：把你的安卓手机变成精准电子尺
+publish: "true"
 ---
-
-# Ruler，安卓手机上的电子卷尺
-
 ## 前言
 
-苹果手机（iPhone）从 <strong>iOS 12</strong> 开始就自带了「<strong>测距仪（Measure）</strong>」应用，可以通过 <strong>AR + 摄像头</strong> 实现测量功能。而安卓系统因为品牌众多，默认没有统一的测量工具，所以像<strong> Ruler</strong> 这样的应用就特别实用：
+苹果手机（iPhone）从 <strong>iOS 12</strong> 开始就自带了「<strong>测距仪（Measure）</strong>」应用，可以通过 <strong>AR + 摄像头</strong> 实现测量功能。而安卓系统因为品牌众多，并没有统一的测量工具，所以像<strong> Ruler</strong> 这样的应用就特别实用：
 
 应用会根据你的设备型号或手动校准结果，计算出 <strong>屏幕每个像素代表的真实长度</strong>。通过手机屏幕的实际尺寸比例来测量，把物体放在屏幕上对齐刻度即可得出长度。
 
@@ -34,8 +32,20 @@ title: 安卓--距离测量软件
 
 无论是想测桌子、屏幕、笔记本尺寸，还是临时找不到尺子时，打开 Ruler，马上就能测个准。
 
+## 校准推荐
+默认配置可能存在些许误差，因此建议**校准一次更准确**。下面这些日常物品都非常适合作为校准基准：
+
+| 物品                                 | 标准尺寸                   |
+| ---------------------------------- | ---------------------- |
+| **身份证 / 银行卡 / 门禁卡（ISO 7810 ID-1）** | **85.60 × 53.98 mm**   |
+| **一元硬币（中国）**                       | **直径 25 mm，厚 1.85 mm** |
+| **A4 纸（ISO 216）**                  | **210 × 297 mm**       |
+
 ## 安装使用
 
 Google play 商店地址：[https://play.google.com/store/apps/details?id=org.nixgame.ruler&hl=zh_TW](https://play.google.com/store/apps/details?id=org.nixgame.ruler&hl=zh_TW)
 
 也可以使用我下载好的。
+
+蓝奏云网盘：https://wwasj.lanzouu.com/id6cU3ctd3ij  
+密码:4ki4

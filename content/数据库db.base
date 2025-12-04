@@ -7,9 +7,9 @@ views:
     order:
       - file.name
       - file.mtime
+      - publish
       - category
       - file.ctime
-      - file.path
     sort:
       - property: file.path
         direction: DESC
@@ -22,17 +22,17 @@ views:
         - file.ext == "md"
     order:
       - file.name
-      - file.mtime
       - category
+      - publish
+      - tags
+      - file.mtime
       - file.ctime
       - file.folder
-    sort:
-      - property: file.mtime
-        direction: DESC
-      - property: file.name
-        direction: DESC
+    sort: []
     columnSize:
+      file.name: 361
       note.category: 117
+      note.tags: 196
   - type: table
     name: 长期内容
     filters:

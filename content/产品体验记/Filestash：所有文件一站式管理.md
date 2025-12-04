@@ -1,7 +1,9 @@
 ---
-alias: "gdbjztghyi7fjxkf6wek"
+alias: gdbjztghyi7fjxkf6wek
 date: 2025-12-01
 title: Filestash--所有文件一站式管理
+tags:
+  - 开源软件
 ---
 
 ## 前言

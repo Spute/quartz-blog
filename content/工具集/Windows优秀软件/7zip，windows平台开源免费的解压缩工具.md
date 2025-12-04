@@ -1,7 +1,12 @@
 ---
-alias: "3g5this94a9wfc4bk87q"
+alias: 3g5this94a9wfc4bk87q
 date: 2025-12-01
 title: 7zip，windows 平台开源免费的解压缩工具
+category: 文章写作
+publish: "true"
+tags:
+  - 工具分享
+  - 开源软件
 ---
 
 ## 前言

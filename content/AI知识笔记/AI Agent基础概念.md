@@ -1,7 +1,8 @@
 ---
-alias: "z81qdg1xxy78nf3gfhvz"
+alias: z81qdg1xxy78nf3gfhvz
 date: 2025-12-01
 title: AI Agent 基础概念
+category: 学习笔记
 ---
 
 ## 引言：

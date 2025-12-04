@@ -1,7 +1,8 @@
 ---
-alias: "rafljcjqsmbh7vq1g3yr"
+alias: rafljcjqsmbh7vq1g3yr
 date: 2025-12-01
 title: AI 常用术语
+category: 学习笔记
 ---
 
 ## vibe coding 氛围编程

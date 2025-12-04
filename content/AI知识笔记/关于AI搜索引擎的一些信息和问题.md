@@ -1,7 +1,8 @@
 ---
-alias: "sm0wi6waq5lcohpv7lro"
+alias: sm0wi6waq5lcohpv7lro
 date: 2025-12-01
 title: 关于 AI 搜索引擎的一些信息和问题
+category: 学习笔记
 ---
 
 周日会议上胡子哥谈及 AI 搜索引擎的好处，为此初步收集了一些相关信息和问题。
