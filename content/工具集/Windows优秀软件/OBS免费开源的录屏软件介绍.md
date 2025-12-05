@@ -1,7 +1,11 @@
 ---
-alias: "gemn2m0al51xexh99ygt"
-date: 2025-12-01
+alias: " o88661r4cywn24lk89t1"
+date: 2025-12-04
 title: OBS 免费开源的录屏软件介绍
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 是什么

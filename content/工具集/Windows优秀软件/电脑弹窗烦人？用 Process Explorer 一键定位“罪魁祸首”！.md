@@ -1,7 +1,11 @@
 ---
-alias: "y0x7ui0wzxzzx288erhp"
-date: 2025-12-01
+alias: " wks9ccxwizg2rfc0jl5g"
+date: 2025-12-04
 title: 电脑弹窗烦人？用 Process Explorer 一键定位“罪魁祸首”！
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 前言
