@@ -1,5 +1,5 @@
 ---
-title: 从 Scratch 开始：孩子学习编程的首选方式
+title: 孩子学编程，不是为了写代码，而是为了更好地学习：推荐 Scratch
 publish: "true"
 category: 文章写作
 date: 2025-12-03
@@ -8,13 +8,6 @@ tags:
   - 工具分享
   - 教育
 ---
-## 前言
-
-如果你刚了解少儿编程，非常推荐先从 **Scratch** 入门——它不是课程，而是一款让孩子**玩着就能创作**的编程软件，也是全球最成熟的少儿编程工具。
-Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭建程序，不需要打字、不用记语法，非常适合 6–12 岁孩子。目前已在150多个国家/地区使用，并提供60多种语言版本。
-
-![[Pasted image 20251204093349.png]]
-
 ## 孩子学编程，到底在学什么？
 
 孩子真正学到的不是写代码，而是 **解决问题的思维能力**：
@@ -24,7 +17,7 @@ Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭�
 - 学会记录变化（变量）  
 - 能把问题拆解成步骤（分解能力）
 
-正如 Mitch Resnick（TED《Learn to Code, Code to Learn》）所说：  
+正如 Mitch Resnick 在TED《Learn to Code, Code to Learn》所说：  
 **“孩子学习编程，不是为了成为程序员，而是为了更好地学习。”**
 
 ---
@@ -44,8 +37,8 @@ Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭�
 
 这些能力比“掌握多少技术”更重要。
 
-### **2）在调试中成长（耐心、抗挫折、表达能力）**
-程序不可能一次成功，调试过程会培养孩子：
+### **2）在调试中成长**
+程序不可能一次成功，调试过程会培养孩子耐心、抗挫折、表达能力：
 
 - 找问题、分析原因  
 - 描述自己遇到的困难  
@@ -55,7 +48,15 @@ Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭�
 
 ---
 
-## 核心特点
+## scratch简介
+
+如果你刚了解少儿编程，非常推荐先从 **Scratch** 入门。它不是课程，而是一款让孩子**玩着就能创作**的编程软件，也是全球最成熟的少儿编程工具。
+Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭建程序，不需要打字、不用记语法，非常适合 6–12 岁孩子。目前已在150多个国家/地区使用，并提供60多种语言版本。
+
+![[Pasted image 20251204093349.png]]
+
+
+## Scratch 核心特点
 
 ### **简单直观，上手快**
 拖拽积木即可编程，几分钟就能做出动画或小游戏，成就感强。
@@ -77,7 +78,7 @@ Scratch 由 麻省理工媒体实验室设计，用“积木拖拽”方式搭�
 家长几乎不用投入成本，就能陪孩子一起玩。 
 
 ## 下载安装
-官网地址：https://scratch.mit.edu/download
-中文资料：https://scratch.shenxinduo.com/guide/
-官网体验网站：https://scratch.mit.edu/projects/editor/?tutorial=getStarted
-私人国内镜像版：https://scratch.focalhot.com/
+- 官网地址：https://scratch.mit.edu/download
+- 中文资料：https://scratch.shenxinduo.com/guide/
+- 官网体验网站：https://scratch.mit.edu/projects/editor/?tutorial=getStarted
+- 私人国内镜像版：https://scratch.focalhot.com/

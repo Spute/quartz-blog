@@ -1,7 +1,11 @@
 ---
-alias: "jhoj0krdd31ao9hstmdr"
-date: 2025-12-01
+alias: " h10jb9jkebjn0cf7c8wz"
+date: 2025-12-05
 title: 一款快到你觉得它似乎没有认真搜的 Windows 文件搜索工具 ——Everything
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 是什么

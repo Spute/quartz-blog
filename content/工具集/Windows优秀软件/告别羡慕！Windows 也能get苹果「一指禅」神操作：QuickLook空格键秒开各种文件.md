@@ -1,7 +1,10 @@
 ---
-alias: "xp2lizyqt3rbgcno1nsq"
-date: 2025-12-01
+alias: " 1civpf80cqlirtfx95su"
+date: 2025-12-05
 title: 告别羡慕！Windows 也能 get 苹果「一指禅」神操作--QuickLook 空格键秒开各种文件
+publish: "true"
+category: 文章写作
+tags:
 ---
 
 ## 前言

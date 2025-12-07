@@ -1,7 +1,11 @@
 ---
-alias: "c3jhg6k86lwimzr79sro"
-date: 2025-12-01
+alias: " 44lggwoz0l5e6089b33x"
+date: 2025-12-05
 title: 效率利器 PixPin--更强大的免费截图工具，支持长截图 +OCR+ 录屏 + 贴图
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 前言

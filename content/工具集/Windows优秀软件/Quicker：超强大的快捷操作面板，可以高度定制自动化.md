@@ -1,7 +1,11 @@
 ---
-alias: "k5oydovh6f3lecw5xten"
-date: 2025-12-01
+alias: " yu9esf3daf2pmikvvqv4"
+date: 2025-12-05
 title: Quicker--超强大的快捷操作面板，可以高度定制自动化
+publish: "true"
+category: 文章写作
+tags:
+  - 工具分享
 ---
 
 ## 前言

@@ -1,12 +1,14 @@
 ---
-alias: "3r6hphe3taz8zma71h6p"
-date: 2025-12-01
+alias: " f683cobm7oaaz5lkanvu"
+date: 2025-12-05
 title: Ditto--让 Windows 剪贴板更强大、更好用的开源工具
+tags:
+  - 工具分享
+publish: "true"
+category: 文章写作
 ---
 
 ## 前言
-
-### 🚀 为什么我推荐用 Ditto，而不是 Windows 自带剪贴板
 
 复制、粘贴、再复制、再粘贴。这是我们每天最频繁的动作之一，但也是最容易忽略的效率环节。
 
