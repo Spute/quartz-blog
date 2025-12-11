@@ -1,7 +1,12 @@
 ---
-alias: "006zux1vzesgoybz041y"
-date: 2025-12-01
+alias: " y82qmevgi20vmp4exmrt"
+date: 2025-12-09
 title: 命令行式 AI 编程革命 Claude Code
+publish: "true"
+category: 文章写作
+tags:
+  - 实践
+  - 软件工程
 ---
 
 ## 是什么
@@ -12,13 +17,10 @@ Claude Code 是一个由 Anthropic 开发的<strong>基于终端的 AI 编码工
 
 <strong>Claude Code 特点是“问答式批量改写”，Cursor 则偏向“写代码时的随时辅助”</strong>
 
-## 环境准备
-
-### 安装 Node.js（如已安装可跳过）
+## linux安装 Claude Code
+- 安装 Node.js（如已安装可跳过）
 
 可参考[ 驱动 AI 项目：Node.js 版本管理利器 NVM 安装指南](https://iixchzsb7i.feishu.cn/wiki/P8skwk5yjiUIHDkNaI1cRIbJnDf)
-
-### 安装 Claude Code
 
 - 设置国内 npm 镜像（提升安装速度）：
 
@@ -45,7 +47,93 @@ news_yu@SZ-YUXINWEN-L1:~$ npm list -g
 ├── @anthropic-ai/claude-code@1.0.83
 ```
 
-### 添加到 VS Code
+---
+
+## window下安装Claude Code
+
+详细步骤可参考[官方文档](https://code.claude.com/docs/zh-CN/setup#%E6%A0%87%E5%87%86%E5%AE%89%E8%A3%85)。下面是“本机安装”方式的示例流程。
+
+“本机安装”是官方推荐方案，相比 NPM 安装具有以下优势：
+
+- 自包含的可执行文件
+    
+- 无需 Node.js 依赖
+    
+- 自动更新程序更稳定
+
+### 安装git bash
+这个工具对git有依赖，所以需要先下载，点击网站 [Git for Windows](https://git-scm.com/downloads/win)，找到对应版本下载（一本电脑都是x64内核），如下图，然后运行安装即可。
+![[Pasted image 20251211095708.png]]
+
+### 下载安装Claude Code
+
+以管理员身份打开 PowerShell，执行以下命令并等待完成。当出现 “Installation complete!” 即表示安装成功：
+
+```
+irm https://claude.ai/install.ps1 | iex
+```
+
+![[Pasted image 20251210174927.png]]
+
+### PowerShell 设置环境变量
+
+安装 Claude Code 后，需要配置模型相关的环境变量。下面是 PowerShell 中查看、设置与持久化环境变量的常用方法。
+
+#### 查看环境变量
+
+查看所有环境变量：
+
+```powershell
+Get-ChildItem Env:
+```
+
+查看指定变量：
+
+```powershell
+$env:PATH
+$env:JAVA_HOME
+```
+
+#### 设置临时环境变量
+
+仅在当前 PowerShell 会话中有效，关闭窗口后失效。
+
+设置变量：
+
+```powershell
+$env:MY_VAR = "hello"
+```
+
+追加 PATH：
+
+```powershell
+$env:PATH += ";C:\MyTools"
+```
+
+---
+
+#### 设置永久环境变量
+
+使用 .NET API 写入用户级环境变量，适用于长期配置：
+
+```powershell
+[Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.deepseek.com/anthropic", "User")
+[Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "<你的密钥>", "User")
+[Environment]::SetEnvironmentVariable("ANTHROPIC_MODEL", "deepseek-chat", "User")
+[Environment]::SetEnvironmentVariable("ANTHROPIC_SMALL_FAST_MODEL", "deepseek-chat", "User")
+```
+
+设置完成后需重新打开一个新的 PowerShell 窗口才能生效。
+
+---
+
+### 验证
+
+在新窗口中输入 `claude`，若弹出如下界面则说明安装成功：
+
+![[Pasted image 20251211094108.png]]
+
+## 添加到 VS Code
 
 1. 打开 VSCode
 2. 打开集成终端
@@ -93,6 +181,7 @@ source ~/.bashrc
 deepseek3.1 发布了，相对之前有着更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升。非常适合接入 claude code，同时因为是国内的大模型，可以直接访问，无需挂代理。
 
 <strong>DeepSeek V3.1 + Claude Code，主打够用，便宜，不用梯子；</strong>
+[官方文档](https://api-docs.deepseek.com/zh-cn/guides/anthropic_api)
 
 ### 注册 deepseek api
 
@@ -156,6 +245,16 @@ claude
 - 根据提示配置，即可开始使用。
 
 ![[HPfQbr9dMoQ7q1x4sh5ceEshnsf.png]]
+
+## 硅基流动平台
+
+[官方文档](https://docs.siliconflow.cn/cn/usercases/use-siliconcloud-in-ClaudeCode#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9A%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE-claude-code-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
+
+```
+export ANTHROPIC_BASE_URL="https://api.siliconflow.cn/"
+export ANTHROPIC_MODEL="moonshotai/Kimi-K2-Instruct-0905"    # 可以自行修改所需模型
+export ANTHROPIC_API_KEY="YOUR_SiliconFlow_API_KEY"    # 请替换 API Key
+```
 
 ## Claude Code 更新：1.0.51 官方支持 Windows
 

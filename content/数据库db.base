@@ -14,6 +14,7 @@ views:
       - property: file.path
         direction: DESC
     columnSize:
+      file.name: 371
       note.category: 123
   - type: table
     name: 文章总表
