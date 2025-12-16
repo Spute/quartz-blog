@@ -248,13 +248,54 @@ claude
 
 ## 硅基流动平台
 
-[官方文档](https://docs.siliconflow.cn/cn/usercases/use-siliconcloud-in-ClaudeCode#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9A%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE-claude-code-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)
-
+查看[官方文档](https://docs.siliconflow.cn/cn/usercases/use-siliconcloud-in-ClaudeCode#%E6%96%B9%E5%BC%8F%E4%BA%8C%EF%BC%9A%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE-claude-code-%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F)，找到使用自定义模型的方法，就是修改以下环境变量。
+PS：目前 Claude Code 并不支持添加多个自定义模型（Custom Model），每次变更都需要修改。
 ```
 export ANTHROPIC_BASE_URL="https://api.siliconflow.cn/"
 export ANTHROPIC_MODEL="moonshotai/Kimi-K2-Instruct-0905"    # 可以自行修改所需模型
-export ANTHROPIC_API_KEY="YOUR_SiliconFlow_API_KEY"    # 请替换 API Key
+export ANTHROPIC_API_KEY="sk-fvnfqknasbbhmbwhsylqqsbmmhcbyganaxukpyuawvobyrex"    # 请替换 API Key
 ```
+
+我们先在平台创建好api key，然后根据你使用的操作系统，进行环境变量修改
+#### 创建api key
+
+登录https://cloud.siliconflow.cn/me/account/ak ，创建保存你的 API Key
+![[Pasted image 20251212101829.png]]
+#### windows修改环境变量
+
+打开powershell工具，使用 .NET API 写入用户级环境变量，执行以下代码，适用于长期配置：
+
+```powershell
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.siliconflow.cn/", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_MODEL", "Qwen/Qwen3-Coder-30B-A3B-Instruct", "User")
+[System.Environment]::SetEnvironmentVariable("ANTHROPIC_API_KEY", "替换为你的 API Key", "User")
+```
+
+
+设置完成后需重新打开一个新的 PowerShell 窗口才能生效。
+
+#### Linux修改环境变量
+
+下面给你整理成一段 **通用 Linux 系统设置环境变量的说明**，不加花哨内容，直接能用、能跑：
+你可以将以下变量写入 `~/.bashrc`、`~/.zshrc` 或其他 shell 启动文件，让它们在每次登录时自动生效：
+
+```bash
+export ANTHROPIC_BASE_URL="https://api.siliconflow.cn/"
+export ANTHROPIC_MODEL="moonshotai/Kimi-K2-Instruct-0905"    # 修改为你需要的模型
+export ANTHROPIC_API_KEY="sk-xxxxxx"                         # 替换为你的 API Key
+```
+
+保存后，执行：
+
+```bash
+source ~/.bashrc
+# 或者
+source ~/.zshrc
+```
+
+即可立即生效。
+
+若只想临时设置（仅在当前终端会话内有效），直接在终端输入三行 `export` 即可。
 
 ## Claude Code 更新：1.0.51 官方支持 Windows
 
@@ -292,3 +333,37 @@ PS: 中文文档翻译为内存管理，误导人
 <tr>
 <td>记忆管理<br/></td><td>`/memory`<br/></td><td>编辑 CLAUDE.md 记忆文件<br/></td><td><br/></td></tr>
 </table>
+
+## 配置
+使用中文回答
+```
+news_yu@SZ-YUXINWEN-L1:~/coding/fvr_ptp$ cat ~/.claude/CLAUDE.md 
+每次请用中文回答我。
+```
+
+
+修改 `~/.claude/settings.json` 配置文件：
+
+```json
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "<ARK-API-KEY>",
+    "ANTHROPIC_BASE_URL": "https://ark.cn-beijing.volces.com/api/compatible",
+    "ANTHROPIC_MODEL": "doubao-seed-code-preview-latest",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1
+  }
+}
+```
+## 问题
+在使用模型接口时，我遇到了一个典型的 **429 rate limiting** 踩坑问题。最开始以为是请求次数过多，触发了 RPM 限制，但反复检查后发现，请求量并不大。
+
+仔细查看报错信息，其中明确提示 **TPM limit reached**，这才意识到真正触发的是 **每分钟 Token 上限**。在硅基流动平台 L0 用量级别下，TPM 只有 40,000，看起来不少，但实际非常容易用完。
+
+问题的根源在于单次请求的 Token 消耗过高：一次性塞入完整文档、代码或历史对话，再加上模型默认较长的输出，几次连续请求就能在 1 分钟内把 Token 消耗殆尽。即使请求次数不多，也会直接返回 429。
+
+这个问题在批量脚本、循环调用或隐式并发场景中尤其容易出现，看起来只是“一次调用”，实际上短时间内已经累积了大量 Token。
+
+最终的经验是：429 并不一定是“发得太频繁”，更可能是“一次说得太多、连续说得太快”。解决方式包括裁剪上下文、限制输出长度、控制调用节奏，并在必要时等待 60 秒让 TPM 窗口恢复。
+
+**结论：claude code不适合接入硅基流动的api，因为它的TPM太低了，分析稍微大一点的项目时经常触发429报错，导致无法使用。**

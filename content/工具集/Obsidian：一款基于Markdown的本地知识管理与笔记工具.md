@@ -67,3 +67,14 @@ https://github.com/JYbill/picgo-plugin-cloudflare-r2?tab=readme-ov-file
 ## 常用快捷键
 
 替换：ctrl + H
+
+
+### 打开**开发者工具（DevTools
+
+直接用快捷键：
+
+- **Windows / Linux**：  
+    **`Ctrl + Shift + I`**
+    
+- **macOS**：  
+    **`Cmd + Option + I`**

@@ -1,7 +1,11 @@
 ---
-alias: "1rivsxyeo0dqemzld87n"
-date: 2025-12-01
+alias: " eywkwi8vehr50v7wi95c"
+date: 2025-12-11
 title: 驱动 AI 项目--Node.js 版本管理利器 NVM 安装指南
+publish: "true"
+category: 文章写作
+tags:
+  - 软件工程
 ---
 
 ## 前言

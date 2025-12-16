@@ -29,7 +29,9 @@ views:
       - file.mtime
       - file.ctime
       - file.folder
-    sort: []
+    sort:
+      - property: file.mtime
+        direction: DESC
     columnSize:
       file.name: 361
       note.category: 117
