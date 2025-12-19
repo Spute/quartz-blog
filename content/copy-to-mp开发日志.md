@@ -59,3 +59,11 @@ obsidian的copy-to-html插件：https://github.com/mvdkwast/obsidian-copy-as-htm
 
         await navigator.clipboard.write([clipboardItem]);
 ```
+
+- 
+- 
+
+## 公众号html/css支持情况
+https://www.axtonliu.ai/newsletters/ai-2/posts/wechat-article-html-css-support
+
+不能用class做样式设置？
