@@ -7,7 +7,7 @@ title: copy-to-mp开发日志
 date: 2025-12-15
 alias: " wj0tzsnh6nehhp2v3lci"
 ---
-# 项目描述
+## 项目描述
 
 参考开源项目：
 花生编辑器：https://github.com/alchaincyf/huasheng_editor
@@ -66,4 +66,22 @@ obsidian的copy-to-html插件：https://github.com/mvdkwast/obsidian-copy-as-htm
 ## 公众号html/css支持情况
 https://www.axtonliu.ai/newsletters/ai-2/posts/wechat-article-html-css-support
 
-不能用class做样式设置？
+不支持用class做样式渲染
+
+使用obsidian自带的api将markdown渲染成html后，会有许多样式，这些样式mp不支持。有两个方案：
+1. 换一个md渲染方式，但这个可能很难去处理图片等附件的内容，还有一些obsidian特殊语法，感觉还是使用obsidian自动的工具实现更靠谱
+2. 对渲染后的html进行大规模的样式修改，参考一下花生编辑器。
+
+
+列表有些问题，部分内容加粗后，其他内容会自动换行
+![[Pasted image 20251221082221.png | 300]]
+
+## 发布插件到obsidian社区
+
+需要先从obsidian relase仓库fork到自己项目，然后编辑一个community-plugins.json文件，然后提交commit，提交pr，然后github action会
+自动校验你的提交的合规性。
+
+- 包含README文件
+-  description 有合法结尾标点
+-  PR / repo / Release 三处 description 完全一致
+-  Release 中包含 `manifest.json`、`main.js`、`styles.css`(可选)
