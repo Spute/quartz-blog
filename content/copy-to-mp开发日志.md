@@ -85,3 +85,6 @@ https://www.axtonliu.ai/newsletters/ai-2/posts/wechat-article-html-css-support
 -  description 有合法结尾标点
 -  PR / repo / Release 三处 description 完全一致
 -  Release 中包含 `manifest.json`、`main.js`、`styles.css`(可选)
+
+eslint校验通过不了，难搞
+先对于旧的校验规则，新的校验规则更严格了。需要从最新的插件模版中同步一下，再跑下相关的校验检查。感觉需要修改很多的代码。

@@ -73,3 +73,4 @@ MacroDroid 提供了调试功能，用户可以在宏执行过程中查看日志
 
 - Automate：[https://play.google.com/store/apps/details?id=com.llamalab.automate](https://play.google.com/store/apps/details?id=com.llamalab.automate)
 - tasker: [https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)
+- 更强大上手更难的tasker，25港币
