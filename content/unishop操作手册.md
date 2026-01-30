@@ -5,7 +5,7 @@ category: 文章写作
 date: 2025-12-31
 alias: " 76x6ww42ldmngns9wb9e"
 tags:
-  - 实践
+  - 跨境电商
 ---
 ## 新手运营注意事项
 
@@ -29,7 +29,7 @@ tags:
 
 8、  易碎品‌：慎选，运输风险高。
 
-9、  货源‌：优先多货源商家，库存少的、单一货源、和限制数量批发 的不跟卖。
+9、  货源‌：优先多货源商家，**库存少的、单一货源、和限制数量批发 的不跟卖**。
 
 10、发货时效‌：仅跟卖48小时内发货的现货，预订单不做。
 
@@ -37,17 +37,20 @@ tags:
 
 12、同款扩展‌：有多宽颜色的，分别单独点开再单独跟卖，最后在Ozon店铺后台可以合并成一个链接。
 
+
 二、ozon跟卖类目和货品建议、要求
 
 1、新手期：轻小件（500g以内）、客单价30-130之间，以宠物、母婴产品、户外、日用品、办公用品、饰品、玩具等。
 
 2、上手期：户外、五金、宠物、儿童用品、家居日用品等
+
 3、**新手初期不建议做服饰鞋帽品类，因为退货率较高**
 
 注：不做鞋服(儿童服装除外）、不做易碎品、不做食品和禁售产品（前期先做杂货铺、如出现产品爆单，可进行该类目的衍生）
 
 
  三、每日工作流程
+
 
 1、进入卖家管理页面-查询商品列目-问题和解答-回答问题
 
@@ -60,6 +63,16 @@ tags:
 5、每天按规定要求上足50个SKU产品。
 
 6、报活动，给予昨天新上品的商品申请活动、删除活动内超过25%的产品、和检查预报活动的里面商品的折扣是否符合要求。
+
+
+### 出单操作
+
+发货流程
+- 第一步，查看订单信息，确认打包货品的重量和体积。
+- 第二步，1688下单到地址  福建省厦门市集美区天安路130-1号   等待发货。
+	- 快递收货地址：福建省厦门市思明区软件园二期望海路59号楼之二908 姜胡说二期 （名字）
+	- 地址后面带上店名。方便有问题件的时候找你沟通。
+- 第三步，在unishop里填写国内的物流单号，如果是多包裹需要用  空格 隔开
 
 ## 关键点
 
@@ -79,7 +92,37 @@ tags:
 | realFBS （Fulfillment by Seller） | 可以称为**自发货**，是指卖家自行负责商品储存和运输的工作模式。<br>也称为FBS。                                                                |
 | FBP (Fulfillment By Partner)    | 是这样一种销售方案——您可以将您的商品存放在Ozon合作伙伴仓库中。就是将货压到边境仓，类似**海外仓**，**可以缩短5天的发货期。**                                       |
 | FBO（Fulfilled by Ozon）          | 是Ozon为本地卖家提供的全面物流服务，完全依赖Ozon的物流体系，适合那些希望将所有物流环节交给平台来管理的卖家。卖家在此模式下，首先将商品存储到Ozon的仓库，由Ozon负责商品的存储、拣选、包装及配送<br> |
+## 平台简介
 
+- [各类商品销售佣金标准 | Ozon Help](https://docs.ozon.ru/global/zh-hans/commissions/ozon-fees/commissions/?country=CN)
+
+- [商品类别和文件的限制 | Ozon Help](https://docs.ozon.ru/global/zh-hans/products/special-categories/?country=CN)
+
+![[微信图片_20260106111734_323_346.png]]
+
+**回款：什么时候订单金额可以到卖家账户？**
+
+当个人中心里的订单状态转为“已签收”时，款项将到达你的账户，同时将扣除Ozon 服务佣金。 你可以在订单板块找到订单状态信息。
+
+平台每月两次回款，15号和25号超过1000美元自动打款。
+
+**关于退货**
+
+在买家退货的情况下，商品金额将从你的账户中扣除，同时会将佣金退还给你。你需要向买家支付商品配送金额以及商品退还至仓库所需的运费。
+
+可以在 财务 → 付款 板块 找到所有付款（账户）列表。 那里有 Ozon 已为你加算的和即将为你加算的所有款项信息。
+
+## 平台配置
+
+### 物流设置
+- 在欧纵物流后台设置配送方式、地点、时间及运费规则。
+- 添加多个发运点，定义不同包裹尺寸。
+- 选择运输方式：陆运、海运或空运。
+
+### 连连支付
+![[Pasted image 20260102162849.png]]
+
+### 配置插件
 
 
 ## 引流+起店
@@ -87,9 +130,9 @@ tags:
 #### 欧众店铺成长策略课程
 
 本次培训课程主要讲解欧众店铺成长策略，分为三个阶段：初期、中期和后期。
-初期主要学习如何快速起店，包括低价、低成本亏单高速起店和稳步起店两种策略。快速起店策略通过亏钱卖出商品，快速积累店铺权重和好评链接，引流到衍生品和有利润的商品上。稳步起店策略则是在控制利润率的情况下，缓慢提升利润和流量。
-中期策略主要是通过跟卖获得流量，然后用精铺提高利润。
-终极目标是学会引流和起店，初期和中期主要采用跟卖加精铺的方式。
+**初期**：主要学习如何快速起店，包括低价、低成本亏单高速起店和稳步起店两种策略。快速起店策略通过亏钱卖出商品，快速积累店铺权重和好评链接，引流到衍生品和有利润的商品上。稳步起店策略则是在控制利润率的情况下，缓慢提升利润和流量。
+**中期**：策略主要是通过跟卖获得流量，然后用精铺提高利润。
+**终极目标**：是学会引流和起店，初期和中期主要采用跟卖加精铺的方式。
 
 ![[Pasted image 20251231172201.png]]
 
@@ -101,24 +144,19 @@ tags:
 ![[Pasted image 20251231172400.png | 600]]
 
 
-## 一、电商拆单原因
+## 电商拆单原因
 - 海关对跨境订单有要求：一个订单通常不超过6件物品。
 - 每个订单需对应指定的配送方式。
 - 欧纵平台对包裹体积（长宽高）和重量均有限制。
 
-## 二、物流设置
-- 在欧纵物流后台设置配送方式、地点、时间及运费规则。
-- 添加多个发运点，定义不同包裹尺寸。
-- 选择运输方式：陆运、海运或空运。
 
-## 三、促销与定价策略
+## 促销与定价策略
 - 确保利润率，建议维持在定价的40%左右。
 - 参加促销前需先提价，再以活动价销售，以保证利润空间。
 
-## 连连支付
-![[Pasted image 20260102162849.png]]
+## 选品策略
 
-## 一、选品策略
+### 整体思路
 - **核心逻辑**：跟单的关键在于选品。主要路径包括：
     - 追踪老店铺的新产品。
     - 发掘新店铺的爆款产品。
@@ -131,6 +169,9 @@ tags:
         4.  **上架时间**：优先选择近30天内上架的新品，避免与高权重老链接直接竞争。
     - 利用后台数据分析热销品、缺货品及季节性商品。
     - 筛选时注意：选择跨境店商品，**避开品牌商品，专注白牌（无品牌）商品**，并设置价格过滤。
+
+
+**核心选品来源**：前台热卖款、新品榜、跨平台观察、热点事件、类目扩展、流量蹭位。
 
 ### 轻小件选品策略
 
@@ -151,17 +192,25 @@ tags:
 3. 轻手工类的：是创意类型的，它的溢价会比较高一点。
 4. 宠物防寒：
 5. 小家电
+6. 五金
 
-## 二、选品执行与验证
+### 选品执行与验证
 - **寻找货源**：
     - 使用商品截图在1688、拼多多等国内平台搜索同款。
     - 注意图片可能被加工导致搜不到原图。
     - 确保国内平台找到的商品图片与海外销售图一致，避免“货不对版”引发差评。
+    
 - **效率工具**：
     - 利用选品工具（如Uni Shop）从 **热门品类、热门店铺、热门商品** 三个维度快速筛选。
     - 使用工具功能批量打开、导出类目与商品页，加快确认流程。
 
-## 三、商品上架与优化
+- **商品图**：
+	- 寻找合适原图，1688、淘宝、亚马逊以图商品的方式查找商品，然后翻译
+	-  图片调整为3:4，推荐900x1200的分辨率
+	-  豆包AI改图，将两张图融合成一张
+	- yandex图片翻译，转换图片
+
+## 商品上架与优化
 - **精铺与重新上架**：
     - 对因违规被下架但有利润的商品，可通过“精铺”功能修改后重新上架。
     - **修改方法**：
@@ -245,3 +294,87 @@ A：冷门类目销量低但利润高、门槛高，热门类目竞争激烈、�
 - 6月12日:俄罗斯日
 - 11月4日:民族团结日
 
+## 资料
+
+### 其他
+
+![[ozon前期做店流程.pdf]]
+
+## 供应链
+
+
+## 供应链
+| 类别       | 网站名称       | 网址                                                               |
+| -------- | ---------- | ---------------------------------------------------------------- |
+| 综合批发     | 阿里巴巴       | [http://1688.com](http://1688.com/)                              |
+|          | 环球华品       | [http://chinabrands.cn](http://chinabrands.cn/)                  |
+|          | 义乌购        | [http://yiwugo.com](http://yiwugo.com/)                          |
+|          | 53货源       | [http://53shop.com](http://53shop.com/)                          |
+|          | 买购网        | [http://maigoo.com](http://maigoo.com/)                          |
+|          | 乐万汇批发城     | [http://sphunpi.com](http://sphunpi.com/)                        |
+|          | 北极光供应链     | [http://aurorascm.com](http://aurorascm.com/)                    |
+|          | 浙江名营企业网    | [http://zj123.com](http://zj123.com/)                            |
+| 五金工业机械电子 | 中国制造网      | [https://cn.made-in-china.com](https://cn.made-in-china.com/)    |
+|          | 中国供应商网     | [https://cn.china.cn](https://cn.china.cn/)                      |
+|          | 慧聪网        | [https://hc360.com](https://hc360.com/)                          |
+|          | 工品汇        | [https://vipmro.com](https://vipmro.com/)                        |
+|          | 工邦邦        | [https://gongbangbang.com](https://gongbangbang.com/)            |
+|          | 西域         | [https://ehsy.com](https://ehsy.com/)                            |
+|          | 网商网        | [https://onwsw.com](https://onwsw.com/)                          |
+|          | 八方资源网      | [https://b2b168.com](https://b2b168.com/)                        |
+|          | 世界工厂网      | [https://gongchang.com](https://gongchang.com/)                  |
+|          | 环球贸易网      | [https://china.herostart.com](https://china.herostart.com/)      |
+|          | 汽配人        | [https://qipeiren.com/peijian](https://qipeiren.com/peijian)     |
+|          | 产品网        | [https://2i-mars.com](https://2i-mars.com/)                      |
+|          | 一呼百应网      | [https://b2b.youboy.com](https://b2b.youboy.com/)                |
+|          | 华强电子网      | [https://hqew.com](https://hqew.com/)                            |
+|          | 猎芯网        | [https://lichunt.com](https://lichunt.com/)                      |
+| 服装批发     | 四季星座       | [https://571xz.com](https://571xz.com/)                          |
+|          | 骏韵服饰批发网    | [http://shuiyipifa.cn](http://shuiyipifa.cn/)                    |
+|          | 中国服装       | [https://efu.com.cn](https://efu.com.cn/)                        |
+|          | 中国女装网      | [https://43er.com](https://43er.com/)                            |
+|          | 档口网        | [https://dangkou.net](https://dangkou.net/)                      |
+|          | 聚衣网        | [https://liuyi5.cn](https://liuyi5.cn/)                          |
+|          | 货捕头        | [https://hznzcn.com](https://hznzcn.com/)                        |
+|          | 搜款网        | [https://vvic.com/gz](https://vvic.com/gz)                       |
+|          | 杭州网商园      | [https://wsy.com](https://wsy.com/)                              |
+|          | 广州17网      | [https://gz.17zwd.com](https://gz.17zwd.com/)                    |
+|          | 衣联网        | [https://eelly.com](https://eelly.com/)                          |
+|          | 一起做网店      | [https://51zwd.com](https://51zwd.com/)                          |
+|          | 杭州女装网      | [https://hznzcn.com](https://hznzcn.com/)                        |
+|          | 315货源网     | [https://315hyw.com](https://315hyw.com/)                        |
+|          | 深圳地摊网      | [https://szbdt.com](https://szbdt.com/)                          |
+|          | 聚衣网（中老年女装） | [https://iuyi5.cn](https://iuyi5.cn/)                            |
+|          | 批批网        | [https://pipipifa.com](https://pipipifa.com/)                    |
+|          | 全球内衣网      | [https://www.ny.ch](https://www.ny.ch/)                          |
+| 美妆批发     | NALA美妆网    | [https://nala.com.cn](https://nala.com.cn/)                      |
+|          | 个秀名妆网      | [https://geshow.com](https://geshow.com/)                        |
+|          | 中妆网        | [https://zghzp.com](https://zghzp.com/)                          |
+|          | 优分销        | [https://alifenxiao.com](https://alifenxiao.com/)                |
+|          | 批发户（珠宝首饰）  | [https://pfhoo.com](https://pfhoo.com/)                          |
+| 食品批发     | 先冻网        | [http://xiandongmall.com/xdmall](http://xiandongmall.com/xdmall) |
+|          | 58食品网      | [https://58food.com](https://58food.com/)                        |
+|          | 食品代理网      | [https://spdl.com](https://spdl.com/)                            |
+|          | 众人店        | [https://zhongrendian.com](https://zhongrendian.com/)            |
+| 医药批发     | 360好药网     | [http://360haoyao.com](http://360haoyao.com/)                    |
+| 母婴童装/玩具  | 挚爱母婴网      | [https://babyzhiai.net](https://babyzhiai.net/)                  |
+|          | 玩具巴巴       | [https://toybaba.com](https://toybaba.com/)                      |
+|          | 生意网        | [https://3e3e.cn](https://3e3e.cn/)                              |
+|          | 乐贝贝童装批发网   | [https://lebeibei.com](https://lebeibei.com/)                    |
+|          | 织里童装网      | [https://zhilitongzhuang.com](https://zhilitongzhuang.com/)      |
+| 家纺家居     | 191家纺网     | [https://91jf.com](https://91jf.com/)                            |
+| 鞋包批发     | 台州开山网      | [https://k3.ch/web/welcome](https://k3.ch/web/welcome)           |
+|          | 中国鞋网       | [https://cnxz.cn](https://cnxz.cn/)                              |
+|          | 鞋都网        | [https://800vi.com](https://800vi.com/)                          |
+|          | 爱搜鞋        | [https://sooxie.com](https://sooxie.com/)                        |
+|          | 新款网        | [https://xingfujie.cn/web](https://xingfujie.cn/web)             |
+|          | 爱买卖        | [https://2mm.cn](https://2mm.cn/)                                |
+|          | 美美淘        | [https://mmgg.com](https://mmgg.com/)                            |
+|          | 中国鞋库网      | [https://cnxieku.com/index](https://cnxieku.com/index)           |
+|          | 购途网        | [https://go2.cn](https://go2.cn/)                                |
+|          | 鞋裤网        | [https://cnxieku.com/index](https://cnxieku.com/index)           |
+|          | 环球鞋网       | [https://shoes.net.cn](https://shoes.net.cn/)                    |
+|          | 货源之家       | [https://huoyuanzhijia.com](https://huoyuanzhijia.com/)          |
+|          | 箱包网        | [https://31bag.com](https://31bag.com/)                          |
+|          | 包牛牛        | [https://bao66.cn/web](https://bao66.cn/web)                     |
+|          | 郭煌网        | [https://seller.dhgate.com](https://seller.dhgate.com/)          |

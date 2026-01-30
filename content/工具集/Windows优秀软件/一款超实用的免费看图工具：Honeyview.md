@@ -16,7 +16,7 @@ tags:
 - <strong>完全免费</strong>：适用于个人、企业用户
 - <strong>无广告</strong>：纯净体验
 - <strong>启动速度快</strong>：界面简洁、响应灵敏
-- <strong>支持格式广泛</strong>：包括常见和专业格式（如 PSD、RAW）
+- <strong>支持格式广泛</strong>：包括多种图片格式（JPG、PNG、WEBP、BPG、BMP）
 
 ## 📌 Honeyview 功能一览：
 
@@ -39,15 +39,17 @@ tags:
 5. <strong>图片基础编辑功能</strong>
 
    - 支持旋转、裁剪、调整画质
-   - 可将图片转换为 JPG、PNG、WEBP、BPG、BMP 等格式
+   - 可将图片**批量**转换为 JPG、PNG、WEBP、BPG、BMP 等格式
    - 操作路径：`编辑 - 转换图片（旋转，裁剪）`
-6. <strong>自定义图片格式关联</strong>
-
-   - 可设置 Honeyview 作为默认查看器
-   - 设置路径：`右键 - 配置 - 格式关联`
-7. <strong>幻灯片播放</strong>
+6. <strong>幻灯片播放</strong>
 
    - 像 ppt 一样自动播放同一文件夹下的图片
+
+## 使用体验
+
+支持批量裁剪，转换图片。
+裁剪模式可以是保持比例、适应宽度、裁剪、拉伸、自动填充单色等。使用起来非常方便。
+![[Pasted image 20260128111708.png]]
 
 ## 安装方式
 
