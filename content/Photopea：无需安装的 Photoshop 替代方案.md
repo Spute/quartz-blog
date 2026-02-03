@@ -1,5 +1,5 @@
 ---
-title: Photopea：在线版 PS 的最佳替代
+title: Photopea：无需安装的 Photoshop 替代方案
 publish: "true"
 category: 文章写作
 date: 2026-01-05
@@ -56,6 +56,8 @@ tags:
 
 ## 使用
 登录[https://www.photopea.com](https://www.photopea.com/) 即可以使用在线 photoshop
+
+![[Pasted image 20260203185205.png]]
 
 ## 基础功能
 
