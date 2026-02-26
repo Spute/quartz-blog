@@ -1,7 +1,10 @@
 ---
-alias: "s48m6yb21f3q1jx2lgyk"
-date: 2025-12-01
-title: Mihon，手机免费看漫画的开源 APP，附常用漫画源
+alias: " 6ovibn2clw063c9my292"
+date: 2026-02-10
+title: Mihon，手机免费看漫画的开源 APP
+publish: "true"
+category: 文章写作
+tags:
 ---
 
 ## 前言
@@ -9,15 +12,6 @@ title: Mihon，手机免费看漫画的开源 APP，附常用漫画源
 这是一款让你自由看线上漫画的好用 APP「Mihon」，完全免费，无广告。
 
 > 本文由[原文](https://ivonblog.com/posts/mihon-manga-reader/)整理而来
-
-## Mihon 特点
-
-- 简洁易用的离线漫画阅读器，支援读取 ComicInfo.xml 分类漫画。
-- 自由阅读线上网站的漫画，例如嗶咔漫画、漫画人、E-hentai、Pixiv、Danbooru、Webtoon、腾讯漫画、Toomics、Bilibili 漫画……等等数不清的网站。可下载漫画离线阅读。
-- 跨平台，有 Android、iOS、Linux、Windows、macOS、网页版等各种版本。
-- 开放原始码，自由软体。只要从官方来源下载就不会有任何病毒。
-- 有非常多的分支版 APP，针对不同网站优化。
-- 可搭配 MyAnimeList、Bangumi 等网站。
 
 ## Mihon 简介
 
@@ -33,13 +27,9 @@ Mihon 提供了一个整合性的界面，方便你存取各大漫画网站的�
 
 另外，Mihon 主程式不只官方原版一种，有很多种分支版。如果你觉得原版功能不符合需求，再去试试那些分支版吧！
 
-## 下载 Mihon 主程式
-
-注意：Mihon 是开源免费的 APP，并未在 Google Play 和 App Store 上架，请到 Github 下载。
-
 ### 官方版 Mihon
 
-目前官方版 Mihon 仅支援 Android 系统。如果你要在其他系统使用，请看下面「分支版 Mihon」一节。
+目前官方版 Mihon 仅支持 Android 系统。如果你要在其他系统使用，请看下面「分支版 Mihon」一节。
 
 Mihon 以前叫做 Tachiyomi，最早是 Inorichi 在 2014 年发起的专案，APP 名字来自日文，意思是「在书店站著看免费漫画」。APP 內建许多漫画网站的扩充套件，官方维护著一个专门收录扩充套件的储存库。
 
@@ -58,22 +48,6 @@ Mihon 这个 APP 名字同样很有趣，日文意思是「漫画试阅本」。
 虽然分支版功能各异，但有些漫画扩充套件是通用的，你可以安装几个比较后再决定要用哪个当主客户端。
 
 现在比较活跃的分支版 Mihon 有以下几个，点选连结下载：
-
-## 安装线上漫画扩充套件来源
-
-透过社群开发的扩充套件，线上阅读漫画，或者下载到本机离线阅读。
-
-1. 初次开启 APP，Mihon 会要求你设定档案储存位置，我个人是把档案放在 `Pictures/Mihon` 资料夹（若该资料夹不存在请自行新增）
-2. 论最受欢迎的 Mihon 储存库，最有名的便是 [keiyoushi 的储存库](https://github.com/keiyoushi/extensions-source)。Github 上还有很多中文开发者维护的储存库，请自行搜寻。
-3. 点选 APP 的探索 → 扩充套件，点选右上角，扩充套件储存库
-4. 加入 keiyoushi 的储存库网址：
-
-```bash
-https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
-```
-
-1. 如果扩充功能有问题，请到 [keiyoushi 储存库](https://github.com/keiyoushi/extensions-source/issues)回报。
-2. 回到扩充套件页面，下拉重新整理，就能下载漫画网站的扩充套件了。点选右上角「筛选」开启所有语言的网站。
 
 ## 阅读本机漫画图档
 
@@ -95,3 +69,18 @@ https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 
 1. 漫画页数不一定要全部都用纯图片储存，使用.cbz 或.zip 压缩档也是可以的，这样搬移才不会花太多时间。
 2. 新增完成之后，点选 Mihon 的探索 → 本机来源页面，就会看到导入的漫画。
+## 安装线上漫画扩充套件来源
+
+透过社群开发的扩充套件，线上阅读漫画，或者下载到本机离线阅读。
+
+1. 初次开启 APP，Mihon 会要求你设定档案储存位置，我个人是把档案放在 `Pictures/Mihon` 资料夹（若该资料夹不存在请自行新增）
+2. 论最受欢迎的 Mihon 储存库，最有名的便是 [keiyoushi 的储存库](https://github.com/keiyoushi/extensions-source)。Github 上还有很多中文开发者维护的储存库，请自行搜寻。
+3. 点选 APP 的探索 → 扩充套件，点选右上角，扩充套件储存库
+4. 加入 keiyoushi 的储存库网址：
+
+```bash
+https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
+```
+
+1. 如果扩充功能有问题，请到 [keiyoushi 储存库](https://github.com/keiyoushi/extensions-source/issues)回报。
+2. 回到扩充套件页面，下拉重新整理，就能下载漫画网站的扩充套件了。点选右上角「筛选」开启所有语言的网站。
