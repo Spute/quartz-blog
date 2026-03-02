@@ -72,18 +72,19 @@ tags:
 
 ## 安装与使用
 
-目前仅支持**本地安装**（插件已提交官方插件市场，尚未审核通过，暂无法在线安装）。
+由于提交obsidian官方还未审核通过，无法直接安装。
 
-### 安装教程
+推荐通过**BRAT插件**间接安装。安装BRAT插件后，添加本插件的 GitHub 仓库地址：`https://github.com/Spute/obsidian-copy-to-mp`即可，后续更新插件也可以使用相同方式。安装演示如下：
 
-可参考以下教程完成插件安装：
-目前只支持本地安装（提交obsidian官方还未审核通过，无法在线安装）。
+![[Pasted image 20260302120424.png]]
+
+![[Pasted image 20260302121225.png]]
 
 安装方法可参考我的教程：
 
-- [B站介绍视频（包含安装步骤）: https://www.bilibili.com/video/BV1W4iuBpEWv/#reply115814850106975](https://www.bilibili.com/video/BV1W4iuBpEWv/#reply115814850106975)
+- [B站介绍视频（包含安装步骤）](https://www.bilibili.com/video/BV1W4iuBpEWv/#reply115814850106975)
     
-- [Obsidian 进阶教程：插件安装: https://blog.520233.best/Obsidian-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B%EF%BC%9A%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85](https://blog.520233.best/Obsidian-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B%EF%BC%9A%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
+- [Obsidian 进阶教程：插件安装: ](https://blog.520233.best/Obsidian-%E8%BF%9B%E9%98%B6%E6%95%99%E7%A8%8B%EF%BC%9A%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85)
 
 ## 问题反馈
 
