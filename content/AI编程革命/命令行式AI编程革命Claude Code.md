@@ -356,6 +356,7 @@ news_yu@SZ-YUXINWEN-L1:~/coding/fvr_ptp$ cat ~/.claude/CLAUDE.md
 }
 ```
 ## 问题
+### **429 rate limiting**
 在使用模型接口时，我遇到了一个典型的 **429 rate limiting** 踩坑问题。最开始以为是请求次数过多，触发了 RPM 限制，但反复检查后发现，请求量并不大。
 
 仔细查看报错信息，其中明确提示 **TPM limit reached**，这才意识到真正触发的是 **每分钟 Token 上限**。在硅基流动平台 L0 用量级别下，TPM 只有 40,000，看起来不少，但实际非常容易用完。
@@ -367,3 +368,14 @@ news_yu@SZ-YUXINWEN-L1:~/coding/fvr_ptp$ cat ~/.claude/CLAUDE.md
 最终的经验是：429 并不一定是“发得太频繁”，更可能是“一次说得太多、连续说得太快”。解决方式包括裁剪上下文、限制输出长度、控制调用节奏，并在必要时等待 60 秒让 TPM 窗口恢复。
 
 **结论：claude code不适合接入硅基流动的api，因为它的TPM太低了，分析稍微大一点的项目时经常触发429报错，导致无法使用。**
+
+### 配置好国内模型api后还是提示登录
+在~/.claude.json配置文件中添加如下配置：
+```
+{"hasCompletedOnboarding": true}
+```
+如果还是不行，进行如下修改：
+```
+补充说明一条，如果显示Not logged in, please run /login可能是不小心误设置了。  
+/config 指令最后一项看看是不是use custom Api key是不是false,设置为true
+```
