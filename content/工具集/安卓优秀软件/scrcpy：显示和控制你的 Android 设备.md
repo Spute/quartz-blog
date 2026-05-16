@@ -1,7 +1,10 @@
 ---
-alias: "l885bmsztugdq3eule88"
-date: 2025-12-01
+alias: " v2rk2v19f2ji0uciewmw"
+date: 2026-04-20
 title: scrcpy--显示和控制你的 Android 设备
+publish: "true"
+category: 文章写作
+tags:
 ---
 
 ## 是什么
