@@ -28,6 +28,9 @@ permalink: " 5k25o5wag4xyhrf6wmk4"
 部署方式可以参考以下文章，写点非常详细：
 - [美观好用：Obsidian+Quartz+Cloudflare Pages 快速博客发布指南 - 毛可多来](https://www.xulihang.work/Quartz/%E7%BE%8E%E8%A7%82%E5%A5%BD%E7%94%A8%EF%BC%9AObsidian+Quartz+Cloudflare-Pages%E5%BF%AB%E9%80%9F%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83%E6%8C%87%E5%8D%97)
 
+## 具体步骤
+![[Pasted image 20260519155538.png]]
+
 ## PWA实现
 ### PWA 是什么？
 

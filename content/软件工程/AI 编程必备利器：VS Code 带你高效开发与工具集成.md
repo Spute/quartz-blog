@@ -196,3 +196,10 @@ Ctrl+Shift+P 打开命令框
 输入“unfold”展开
 
 ![[XGvObloFMo1ehpxE8Rsc0Tc4n0b.png]]
+
+### 代码git修改历史查找
+测试下拉cursor自带的git工具对选中行的查找不准确，需要使用gitlens插件来实现。操作步骤如下：
+1. 调用crtl shift P 调出命令版找到如下命令
+![[Pasted image 20260731105101.png]]
+2. 框选相关代码，gitlens页面栏会实时显示行历史和文件历史
+![[Pasted image 20260731105423.png]]
